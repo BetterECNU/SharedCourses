@@ -1,0 +1,18 @@
+---
+title: 信息安全数学导论
+category:
+  - 软件工程学院
+  - 课程资料
+tag:
+  - 信息安全
+  - 数学
+  - 专业课程
+---
+
+# 信息安全数学导论
+
+很简单
+
+## 真题卷
+
+[信息安全数学导论_软件工程学院_2024Fall_期末_A_回忆版.jpg](../res/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%AF%BC%E8%AE%BA/%E7%9C%9F%E9%A2%98%E5%8D%B7/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%AF%BC%E8%AE%BA_%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2_2024Fall_%E6%9C%9F%E6%9C%AB_A_%E5%9B%9E%E5%BF%86%E7%89%88.jpg)
