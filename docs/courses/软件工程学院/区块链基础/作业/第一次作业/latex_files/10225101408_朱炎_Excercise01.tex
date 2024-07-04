@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{ctex}
+\geometry{margin=1in}
+
+\title{区块链基础第一次作业}
+\author{10225101408 朱炎}
+\date{2025.3.18}
+
+\begin{document}
+
+\maketitle
+
+比特币总量上限为2100万个且预计在2140年基本挖完的核心机制源于其区块奖励减半规则。
+
+\section{比特币的总量上限计算}
+比特币的初始奖励为50个比特币，每210000个区块奖励减半一次，第一个周期内产生$50 \times 210000 = 10500000$个比特币。
+则我们可以通过以下等比数列求和公式计算比特币总量上限：
+\begin{equation}
+    10500000 \times \sum_{n=0}^{\infty} (\frac{1}{2})^n = 10500000 \times \frac{1}{1 - \frac{1}{2}} = 21000000 \text{BTC}
+\end{equation}
+即2100万个比特币。
+
+\section{比特币的终止时间计算}
+比特币每210000个区块奖励减半一次，每个区块的产生时间约为10分钟，故210000个区块的生成耗时约为210000*10分钟 = 35000小时 = 1458天 = 4年。
+
+比特币于2009年1月3日开始发行，到2140年约为131年，即32个周期。32个周期后，比特币的奖励为：
+\begin{equation}
+    50 \times 2^{-32} \approx 1.16 \times 10^{-8} \text{BTC}
+\end{equation}
+而比特币的最小单位1聪（Satoshi）为$10^{-8}$比特币，故比特币的奖励将约等于0，挖矿终止。
+
+\end{document}

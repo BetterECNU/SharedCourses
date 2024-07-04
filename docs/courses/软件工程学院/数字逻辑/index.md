@@ -1,0 +1,19 @@
+---
+title: 数字逻辑
+category:
+  - 软件工程学院
+  - 课程资料
+tag:
+  - 数字逻辑
+  - 硬件基础
+---
+
+# 数字逻辑
+
+!!! warning "施工中"
+
+## 真题卷
+
+[数字逻辑_软件工程学院_2024Fall_期中.pdf](../res/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91/%E7%9C%9F%E9%A2%98%E5%8D%B7/%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91_%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2_2024Fall_%E6%9C%9F%E4%B8%AD.pdf)
+
+[数字逻辑_软件工程学院_2024Fall_期中_含答案.pdf](../res/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91/%E7%9C%9F%E9%A2%98%E5%8D%B7/%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91_%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2_2024Fall_%E6%9C%9F%E4%B8%AD_%E5%90%AB%E7%AD%94%E6%A1%88.pdf)
