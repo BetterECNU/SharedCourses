@@ -7,28 +7,28 @@ bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: 项目名称
-tagline: 你可以在这里放置或是整个项目的描述。
+heroText: SharedCourses
+tagline: 华东师范大学课程共享计划 - 统一汇总，公开共享，开放更新
 actions:
-  - text: 使用指南
+  - text: 开始
     icon: lightbulb
-    link: ./demo/
+    link: ./courses/
     type: primary
 
   - text: 文档
     link: ./guide/
 
 highlights:
-  - header: 易于安装
+  - header: 项目特色
     image: /assets/image/box.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     highlights:
-      - title: 运行 <code>pnpm create vuepress-theme-hope hope-project</code> 以创建一个新的主题项目。
-      - title: 在已有项目根目录下运行 <code>pnpm create vuepress-theme-hope add .</code> 以在项目中添加主题。
+      - title: <strong>统一汇总</strong> - 将分散的课程资源集中到一个平台
+      - title: <strong>公开共享</strong> - 秉承开源精神，任何人都能自由访问与使用
 
-  - header: 在 Markdown 中添加你想要的内容
-    description: 我们扩展了标准的 CommonMark 规范，为你添加了成吨功能。
+  - header: 解决现状问题
+    description: 针对目前华师大课程资料的现状，我们提供系统性解决方案
     image: /assets/image/markdown.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
@@ -36,291 +36,185 @@ highlights:
       background-repeat: repeat
       background-size: initial
     features:
-      - title: 链接检查
+      - title: 历代传承
         icon: clipboard-check
-        details: 检查 Markdown 链接
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
+        details: 解决课程资源由学长学姐多年积累但只在部分人手中流通的问题
 
-      - title: 提示容器
-        icon: box-archive
-        details: 用样式装饰 Markdown 内容
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/hint.html
+      - title: 统一检索
+        icon: search
+        details: 改变资源散落在各个GitHub仓库，难以集中有效检索的现状
 
-      - title: GFM 警告
-        icon: bell
-        details: GFM 风格的警告容器
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/alert.html
+      - title: 开放获取
+        icon: unlock
+        details: 打破部分资源被少数人低价售卖，难以保证完整性的垄断局面
 
-      - title: 选项卡
-        icon: table-columns
-        details: 使用选项卡对相似内容进行分组
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/content/tabs.html
+      - title: 标准化命名
+        icon: tag
+        details: 建立统一的文件命名规范，便于资源管理和检索
 
-      - title: 代码组
-        icon: code
-        details: 使用选项卡对相似代码进行分组
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code/code-tabs.html
+      - title: 版本控制
+        icon: code-branch
+        details: 使用Git进行版本控制，确保资源的可追溯性和完整性
 
-      - title: 自定义对齐
-        icon: align-center
-        details: Markdown 中对内容进行自定义对齐
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/align.html
+      - title: 协作更新
+        icon: users
+        details: 支持多人协作，任何人都可以上传和更新资源
 
-      - title: 自定义属性
-        icon: code
-        details: 为 Markdown 元素添加属性
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/attrs.html
-
-      - title: 上下角标
-        icon: superscript
-        details: 轻松在 Markdown 中添加上下角标
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/sup-sub.html
-
-      - title: 脚注
-        icon: quote-left
-        details: 在内容中插入脚注
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/content/footnote.html
-
-      - title: 标记
-        icon: highlighter
-        details: 标记并高亮内容
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/mark.html
-
-      - title: 剧透
-        icon: eraser
-        details: 添加剧透标记支持
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/spoiler.html
-
-      - title: 任务列表
-        icon: square-check
-        details: 轻松插入任务列表
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/grammar/tasklist.html
-
-      - title: 图片语法
-        icon: image
-        details: 使用改进的语法指定图片大小与颜色模式
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/grammar/image.html
-
-      - title: 组件支持
-        icon: puzzle-piece
-        details: 在 Markdown 中轻松插入组件
-        link: https://theme-hope.vuejs.press/zh/guide/component/grammar.html
-
-      - title: 组件
-        icon: puzzle-piece
-        details: 开箱即用的常用组件
-        link: https://theme-hope.vuejs.press/zh/guide/component/built-in.html
-
-      - title: Chart.js 支持
-        icon: chart-simple
-        details: 在 Markdown 中展示 Chart.js 图表
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/chart/chartjs.html
-
-      - title: 流程图支持
-        icon: route
-        details: 在 Markdown 中直接写出流程图
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/chart/flowchart.html
-
-      - title: Mermaid 支持
-        icon: chart-pie
-        details: 在 Markdown 中添加 Mermaid 图例
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/chart/mermaid.html
-
-      - title: Plantuml 支持
-        icon: diagram-project
-        details: 在 Markdown 中添加 Plant UML 图表
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/chart/plantuml.html
-
-      - title: Tex 支持
-        icon: square-root-variable
-        details: Markdown 现在也可以支持 Tex 语法以显示公式
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/grammar/math.html
-
-      - title: 导入文件支持
-        icon: fa6-brands:markdown
-        details: 将你的文档分段，并在 Markdown 中导入
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/content/include.html
-
-      - title: 交互演示支持
-        icon: code
-        details: 你可以在 Markdown 中添加交互演示
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code/playground.html
-
-      - title: Kotlin 交互演示支持
-        icon: fa6-brands:kickstarter
-        details: 响应式的 Kotlin 演示
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code/kotlin-playground.html
-
-      - title: Vue 交互演示支持
-        icon: fa6-brands:vuejs
-        details: 在交互演示中展示 Vue 组件
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code/vue-playground.html
-
-      - title: Sandpack 交互演示支持
-        icon: code
-        details: Sandpack 驱动的实时的编码环境
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code/sandpack.html
-
-      - title: 代码案例支持
-        icon: laptop-code
-        details: 你可以很方便的插入代码案例
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code/demo.html
-
-      - title: 幻灯片支持
-        icon: person-chalkboard
-        details: 通过 Reveal.js 在 Markdown 中插入幻灯片
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/content/revealjs.html
-
-  - header: 可定制的页面
-    description: 完整无障碍支持的可定制外观
+  - header: 资源分类
+    description: 按照学院和课程分类整理，方便查找
     image: /assets/image/ui.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     highlights:
-      - title: 深色模式
-        icon: circle-half-stroke
-        details: 可以自由切换浅色模式与深色模式
-        link: https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html
+      - title: 软件工程学院
+        icon: laptop-code
+        details: 包含并行程序设计、计算机系统、密码分析学等专业课程资料
 
-      - title: 主题色切换
-        icon: palette
-        details: 支持自定义主题色并允许用户在预设的主题颜色之间切换
-        link: https://theme-hope.vuejs.press/zh/guide/interface/theme-color.html
+      - title: 数据科学与工程学院
+        icon: chart-line
+        details: 涵盖数据科学相关的核心课程和实践资料
 
-      - title: 更多
-        icon: ellipsis
-        details: RTL 布局，打印支持，全局按钮等
-        link: https://theme-hope.vuejs.press/zh/guide/interface/others.html
+      - title: 公共基础课程
+        icon: book
+        details: 高等数学、线性代数、大学英语等通识教育课程资料
 
-  - header: 布局
-    description: 一个完美的响应式布局。
+  - header: 使用指南
+    description: 简单易用的资源获取和贡献方式
     image: /assets/image/layout.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
-      - title: 导航栏
-        icon: window-maximize
-        details: 完全可定制的导航栏以及改进的移动端外观
-        link: https://theme-hope.vuejs.press/zh/guide/layout/navbar.html
+      - title: 获取资料
+        icon: download
+        details: 直接浏览课程分类，下载所需的试卷、答案、课件等资料
 
-      - title: 侧边栏
-        icon: fas fa-window-maximize fa-rotate-270
-        details: 从文档标题或文件结构中自动生成侧边栏
-        link: https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html
+      - title: 贡献资料
+        icon: upload
+        details: 按照标准化命名规范提交PR或通过邮件提交文件
 
-      - title: 幻灯片页面
-        icon: person-chalkboard
-        details: 添加幻灯片页面以显示你喜欢的内容
-        link: https://theme-hope.vuejs.press/zh/guide/layout/slides.html
+      - title: 标准规范
+        icon: list-check
+        details: 遵循统一的文件命名和提交规范，确保资源质量
 
-      - title: 布局增强
-        icon: object-group
-        details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
-        link: https://theme-hope.vuejs.press/zh/guide/layout/
+      - title: 开放协作
+        icon: handshake
+        details: 欢迎所有华师大学子参与，共同完善课程资源库
 
-      - title: 更多
-        icon: ellipsis
-        details: RTL 布局，打印支持，全局按钮等
-        link: https://theme-hope.vuejs.press/zh/guide/interface/others.html
-
-  - header: 新功能
+  - header: 热门课程资料
     image: /assets/image/features.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
     features:
-      - title: 目录页面
+      - title: 并行程序设计
+        icon: microchip
+        details: 包含课件、教材、期末试卷及编程作业等完整资料
+        link: ./courses/软件工程学院/并行程序设计/
+
+      - title: 计算机安全
+        icon: shield-halved
+        details: 提供习题答案、期末试卷和原版课本等学习资源
+        link: ./courses/软件工程学院/计算机安全/
+
+      - title: 形式语言与自动机理论
+        icon: gear
+        details: 涵盖课件、期末试卷和形式化作业答案
+        link: ./courses/软件工程学院/形式语言与自动机理论/
+
+      - title: 区块链基础
+        icon: link
+        details: 包含完整课件、期末考试和作业资料
+        link: ./courses/软件工程学院/区块链基础/
+
+      - title: 网络安全协议及分析
         icon: network-wired
-        details: 自动生成目录页以及开箱即用的目录组件
-        link: https://theme-hope.vuejs.press/zh/guide/feature/catalog.html
+        details: 提供课件和期末考试相关资料
+        link: ./courses/软件工程学院/网络安全协议及分析/
 
-      - title: 浏览量与评论
-        icon: comment-dots
-        details: 配合 4 个评论服务开启阅读量统计与评论支持
-        link: https://theme-hope.vuejs.press/zh/guide/feature/comment.html
+      - title: 高等数学
+        icon: square-root-variable
+        details: 多个学院的高等数学课程资料，适合不同专业需求
+        link: ./courses/数学科学学院/
 
-      - title: 文章信息
-        icon: circle-info
-        details: 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
-        link: https://theme-hope.vuejs.press/zh/guide/feature/page-info.html
-
-      - title: 文章加密
-        icon: lock
-        details: 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
-        link: https://theme-hope.vuejs.press/zh/guide/feature/encrypt.html
-
-      - title: 搜索支持
-        icon: search
-        details: 支持 docsearch 和基于客户端的搜索
-        link: https://theme-hope.vuejs.press/zh/guide/feature/search.html
-
-      - title: 代码块
-        icon: code
-        details: 自定义代码块主题、行号、行高亮、复制按钮等
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code/fence.html
-
-      - title: 图片预览
-        icon: image
-        details: 像相册一样允许你浏览、缩放并分享你的页面图片
-        link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
-
-  - header: 博客
-    description: 通过主题创建个人博客
+  - header: 参与贡献
+    description: 成为课程共享计划的贡献者，帮助更多同学
     image: /assets/image/blog.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
-      - title: 博客功能
-        icon: blog
-        details: 通过文章的日期、标签和分类展示文章
-        link: https://theme-hope.vuejs.press/zh/guide/blog/intro.html
+      - title: 提交资料
+        icon: file-upload
+        details: 按照命名规范整理资料，通过PR或邮件提交
 
-      - title: 博客主页
-        icon: house
-        details: 全新博客主页
-        link: https://theme-hope.vuejs.press/zh/guide/blog/home.html
+      - title: 完善内容
+        icon: pen
+        details: 补充缺失的答案、更正错误信息，提升资料质量
 
-      - title: 博主信息
-        icon: circle-info
-        details: 自定义名称、头像、座右铭和社交媒体链接
-        link: https://theme-hope.vuejs.press/zh/guide/blog/blogger.html
+      - title: 建议改进
+        icon: lightbulb
+        details: 提出改进建议，优化平台功能和用户体验
 
-      - title: 时间线
-        icon: clock
-        details: 在时间线中浏览和通读博文
-        link: https://theme-hope.vuejs.press/zh/guide/blog/timeline.html
+      - title: 维护更新
+        icon: arrows-rotate
+        details: 帮助维护现有资料，确保信息的时效性和准确性
 
-  - header: 高级
-    description: 增强站点与用户体验的高级功能
+  - header: 技术支持
+    description: 基于现代化技术栈构建，保证平台稳定可靠
     image: /assets/image/advanced.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
     highlights:
-      - title: SEO 增强
-        icon: dumbbell
-        details: 将最终生成的网页针对搜索引擎进行优化。
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/seo.html
+      - title: Git 版本控制
+        icon: code-branch
+        details: 使用Git进行版本控制，确保所有变更可追踪、可回滚
 
-      - title: Sitemap
-        icon: sitemap
-        details: 自动为你的网站生成 Sitemap
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/sitemap.html
+      - title: VuePress 构建
+        icon: vuejs
+        details: 基于VuePress构建，提供优秀的阅读体验和SEO支持
 
-      - title: Feed 支持
-        icon: rss
-        details: 生成你的 Feed，并通知你的用户订阅它
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/feed.html
-
-      - title: PWA 支持
+      - title: 响应式设计
         icon: mobile-screen
-        details: 让你的网站更像一个 APP
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
+        details: 支持多设备访问，在手机、平板、电脑上都有良好体验
+
+      - title: 快速搜索
+        icon: magnifying-glass
+        details: 内置搜索功能，快速定位所需课程和资料
 
 copyright: false
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-至今 Mr.Hope
+footer: SharedCourses - 华东师范大学课程共享计划 | 开源协作，共享知识，助力学习
 ---
 
-这是项目主页的案例。你可以在这里放置你的主体内容。
+## 欢迎来到华东师范大学课程共享计划
 
-想要使用此布局，你需要在页面 front matter 中设置 `home: true`。
+本平台致力于为华东师范大学的学生提供一个**统一、开放、协作**的课程资料共享环境。
 
-配置项的相关说明详见 [项目主页配置](https://theme-hope.vuejs.press/zh/guide/layout/home.html)。
+### 🎯 我们的目标
+
+- **统一汇总**：将分散的课程资源集中到一个平台
+- **公开共享**：秉承开源精神，任何人都能自由访问与使用
+- **开放更新**：任何人都可以上传和更新资源，保持内容持续完善
+
+### 📚 涵盖内容
+
+- **试卷答案**：期中期末考试试卷及标准答案
+- **课程课件**：教师授课PPT和讲义资料
+- **作业习题**：课后作业题目及参考解答
+- **学习笔记**：同学们整理的学习笔记和总结
+- **教材资料**：电子版教材和参考书籍
+
+### 🚀 快速开始
+
+1. **浏览资料**：点击上方"开始"按钮，按照学院和课程分类查找所需资料
+2. **下载使用**：直接下载PDF、PPT、Word等格式的学习资料
+3. **贡献资料**：按照标准化命名规范提交你的资料，帮助更多同学
+4. **反馈建议**：遇到问题或有改进建议，欢迎通过各种方式联系我们
+
+### 💡 参与贡献
+
+我们欢迎每一位华师大学子参与到这个项目中来：
+
+- 📤 **上传资料**：分享你拥有的课程资料
+- ✏️ **完善内容**：补充缺失的答案或更正错误信息  
+- 💬 **提出建议**：帮助我们改进平台功能
+- 🔄 **维护更新**：协助维护资料的时效性
+
+让我们一起构建华师大最全面的课程资源库，让知识的分享成为我们共同的财富！

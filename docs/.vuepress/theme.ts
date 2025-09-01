@@ -7,8 +7,8 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "BetterECNU",
+    url: "https://github.com/BetterECNU",
   },
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -26,16 +26,6 @@ export default hopeTheme({
   // 页脚
   footer: "默认页脚",
   displayFooter: true,
-
-  // 加密配置
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
-      },
-    },
-  },
 
   // 多语言配置
   metaLocales: {
