@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://courses.ecnu.vanillaaaa.org",
 
   author: {
     name: "BetterECNU",
@@ -15,7 +15,7 @@ export default hopeTheme({
 
   repo: "BetterECNU/SharedCourses",
 
-  docsDir: "src",
+  docsDir: "docs",
 
   // 导航栏
   navbar,
@@ -24,7 +24,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "SharedCourses - 华东师范大学课程共享计划",
   displayFooter: true,
 
   // 多语言配置

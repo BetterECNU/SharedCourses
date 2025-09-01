@@ -4,6 +4,10 @@
 
 ### 项目简介
 
+> 本项目起源于 [タクヤマ](https://github.com/takuyamafuru) 的 [ECNU_Crypt_Student_Manual](https://github.com/BetterECNU/ECNU_Crypt_Student_Manual) <br>
+> 由 [Eagle233](https://github.com/Eagle233Fake) 提出整合想法, 并建立第一版仓库 [ECNU-SharedCourses](https://github.com/BetterECNU/ECNU-SharedCourses) <br>
+> 经由 [KirisameVanilla](https://github.com/KirisameVanilla) 重构, 最终呈现为本仓库。
+
 本项目旨在为华东师范大学的学生提供一个统一、开放的课程资料共享平台。
 
 目前我校的课程资料存在如下的特征:
@@ -24,7 +28,7 @@
 
 平台面向的同学:
 
-1. **获取资料**: 想要获取资源的同学可直接[访问网站](https://ecnusc.eagle233.top/).
+1. **获取资料**: 想要获取资源的同学可直接[访问网站](https://courses.ecnu.vanillaaaa.org/).
 2. **共享资料**: 愿意贡献资源的同学可按规范提交 PR 或通过邮件提交文件, 审核通过后合并到平台.
 
 ## 贡献指南
@@ -104,7 +108,7 @@ docs/
 
 ## 快速开始
 
-1. 访问[项目网站](https://ecnusc.eagle233.top/)浏览和下载资料
+1. 访问[项目网站](https://courses.ecnu.vanillaaaa.org/)浏览和下载资料
 2. 要贡献资料，请：
    - Fork 本仓库
    - 按照命名规范添加资料
@@ -113,7 +117,7 @@ docs/
 
 ## 许可证
 
-本项目采用开源许可证，欢迎所有华师大学子参与贡献！
+本项目采用开源许可证，欢迎所有人参与贡献！
 
 ## 联系我们
 
