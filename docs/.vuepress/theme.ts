@@ -69,13 +69,11 @@ export default hopeTheme({
     tasklist: true,
     vPre: true,
 
-    // 取消注释它们如果你需要 TeX 支持
-    // math: {
-    //   // 启用前安装 katex
-    //   type: "katex",
-    //   // 或者安装 mathjax-full
-    //   type: "mathjax",
-    // },
+    // 启用 KaTeX 数学公式支持
+    math: {
+      // 启用前安装 katex
+      type: "katex",
+    },
 
     // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
     // revealjs: {
