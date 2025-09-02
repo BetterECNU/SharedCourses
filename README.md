@@ -26,6 +26,26 @@
 - Commit 说明：如 `add: 软件工程学院-计算机系统`，`update: 软件工程学院-计算机系统` 等
 
 <!-- readme: contributors -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/KirisameVanilla">
+                    <img src="https://avatars.githubusercontent.com/u/118162831?v=4" width="100;" alt="KirisameVanilla"/>
+                    <br />
+                    <sub><b>霧雨バニラ</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/takuyamafuru">
+                    <img src="https://avatars.githubusercontent.com/u/80616268?v=4" width="100;" alt="takuyamafuru"/>
+                    <br />
+                    <sub><b>Takuyama</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
 <!-- readme: contributors -end -->
 
 ## 项目结构
