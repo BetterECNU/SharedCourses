@@ -6,51 +6,28 @@
 
 > 本项目起源于 [タクヤマ](https://github.com/takuyamafuru) 的 [ECNU_Crypt_Student_Manual](https://github.com/BetterECNU/ECNU_Crypt_Student_Manual) <br>
 > 由 [Eagle233](https://github.com/Eagle233Fake) 提出整合想法, 并建立第一版仓库 [ECNU-SharedCourses](https://github.com/BetterECNU/ECNU-SharedCourses) <br>
-> 经由 [KirisameVanilla](https://github.com/KirisameVanilla) 重构, 最终呈现为本仓库。
+> 经由 [KirisameVanilla](https://github.com/KirisameVanilla) 重构, 最终呈现为本仓库.
 
 ## 项目简介
 
-本项目旨在为华东师范大学学生提供统一、开放的课程资料共享平台，集中整理、公开共享各类课程资源，欢迎所有人参与贡献。
-
-## 项目目标
-
-- 统一汇总分散的课程资源
-- 公开共享，任何人可访问和使用
-- 开放更新，持续完善内容
+本项目旨在为华东师范大学学生提供统一, 开放的课程资料共享平台, 集中整理, 公开共享各类课程资源, 欢迎所有人参与贡献.
 
 ## 快速开始
 
-1. 访问[项目网站](https://courses.ecnu.vanillaaaa.org/)浏览和下载资料
-2. 贡献资料：Fork 本仓库，按命名规范添加资料，提交 PR，等待审核合并
+1. 访问 [项目网站](https://courses.ecnu.vanillaaaa.org/) 浏览和下载资料
+2. 贡献资料: Fork 本仓库, 按命名规范添加资料, 提交 PR, 等待审核合并
 
 ## 贡献指南
 
-- 命名规范：建议采用“科目_院系_学期_考试类型_其他信息.格式”方式命名
-- 资料类型：试卷、答案、讲义等均可提交
-- Commit 说明：如 `add: 软件工程学院-计算机系统`，`update: 软件工程学院-计算机系统` 等
+### 规范
 
-<!-- readme: contributors -start -->
-<table>
-	<tbody>
-		<tr>
-            <td align="center">
-                <a href="https://github.com/KirisameVanilla">
-                    <img src="https://avatars.githubusercontent.com/u/118162831?v=4" width="100;" alt="KirisameVanilla"/>
-                    <br />
-                    <sub><b>霧雨バニラ</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/takuyamafuru">
-                    <img src="https://avatars.githubusercontent.com/u/80616268?v=4" width="100;" alt="takuyamafuru"/>
-                    <br />
-                    <sub><b>Takuyama</b></sub>
-                </a>
-            </td>
-		</tr>
-	<tbody>
-</table>
-<!-- readme: contributors -end -->
+- 命名规范: 建议采用 `科目_院系_学期_考试类型_其他信息.格式` 方式命名
+- 资料类型: 试卷, 答案, 讲义等均可提交, 试卷及答案使用 `Markdown` 书写, 讲义经由开发团队储存至私有服务器之后以外链的方式引用
+- Commit Message 说明: 如 `feat: 软件工程学院-计算机系统`, `fix: 软件工程学院-计算机系统试卷书写错误` 等, 不符合规范的 Message 将被开发团队使用 Squash Merge 重新撰写
+
+### 贡献者
+
+[![Contributors](https://contributors-img.web.app/image?repo=BetterECNU/SharedCourses&max=105&columns=15)](https://github.com/BetterECNU/SharedCourses/graphs/contributors)
 
 ## 项目结构
 
@@ -62,4 +39,4 @@ docs/
 
 ## 联系我们
 
-如有问题或建议，欢迎通过 Issue、邮件或 Pull Request 联系我们。
+如有问题或建议, 欢迎通过 [Issue(推荐)](https://github.com/BetterECNU/SharedCourses/issues) 或 [邮件](mailto:zy1834576129@outlook.com) 联系我们.
