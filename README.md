@@ -1,5 +1,9 @@
 # SharedCourses
 
+![GitHub repo size](https://img.shields.io/github/repo-size/BetterECNU/SharedCourses?style=for-the-badge)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/BetterECNU/SharedCourses?style=for-the-badge&link=https%3A%2F%2Fgithub.com%2FBetterECNU%2FSharedCourses%2Fissues)
+![GitHub Repo stars](https://img.shields.io/github/stars/BetterECNU/SharedCourses?style=for-the-badge)
+
 > 本项目起源于 [タクヤマ](https://github.com/takuyamafuru) 的 [ECNU_Crypt_Student_Manual](https://github.com/BetterECNU/ECNU_Crypt_Student_Manual) <br>
 > 由 [Eagle233](https://github.com/Eagle233Fake) 提出整合想法, 并建立第一版仓库 [ECNU-SharedCourses](https://github.com/BetterECNU/ECNU-SharedCourses) <br>
 > 经由 [KirisameVanilla](https://github.com/KirisameVanilla) 重构, 最终呈现为本仓库。
