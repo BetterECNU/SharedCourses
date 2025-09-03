@@ -6,6 +6,8 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   hostname: "https://courses.ecnu.vanillaaaa.org",
 
+  pageInfo: ["Author"],
+
   author: {
     name: "BetterECNU",
     url: "https://github.com/BetterECNU",
