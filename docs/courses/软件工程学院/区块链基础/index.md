@@ -9,8 +9,12 @@ tag:
   - 专业课程
 ---
 
-# 区块链基础
+## 2024-2025学年下学期
 
-!!! warning "施工中"
+### 叫啥来着
 
-本目录包含区块链基础课程的相关资料。
+#### 教学资料
+
+- [南京大学慕课](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/区块链基础/2024-2025学年下学期/课件/南京大学慕课)
+- [蚂蚁区块链](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/区块链基础/2024-2025学年下学期/课件/蚂蚁区块链)
+- [作业](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/区块链基础/2024-2025学年下学期/作业)
