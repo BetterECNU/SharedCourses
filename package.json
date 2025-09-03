@@ -13,6 +13,8 @@
   "devDependencies": {
     "@mdit/plugin-katex": "^0.23.1",
     "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/plugin-slimsearch": "^2.0.0-rc.112",
+    "@vuepress/plugin-watermark": "^2.0.0-rc.112",
     "katex": "^0.16.22",
     "sass-embedded": "^1.89.2",
     "vue": "^3.5.20",
