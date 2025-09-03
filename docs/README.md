@@ -3,7 +3,7 @@ home: true
 icon: house
 title: 项目主页
 # TODO: logo.svg
-heroImage: https://raw.githubusercontent.com/BetterECNU/SharedCourses/refs/heads/master/docs/.vuepress/public/logo.png
+heroImage: https://drive.vanillaaaa.org/p/SharedCourses/logo.png?sign=Gt94tCDy5QpjoruGeP58uylLeoDpJtiRT8r5V8nuMZw=:0
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
