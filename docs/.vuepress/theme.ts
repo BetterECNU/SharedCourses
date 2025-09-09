@@ -20,6 +20,9 @@ export default hopeTheme({
 
   docsDir: "docs",
 
+  contributors: false,
+  changelog: true,
+
   // 导航栏
   navbar,
 
