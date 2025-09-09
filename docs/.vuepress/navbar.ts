@@ -2,5 +2,10 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/courses/",
+  {
+    text: "课程",
+    icon: "book",
+    link: "/courses/",
+    activeMatch: "^/courses/",
+  },
 ]);

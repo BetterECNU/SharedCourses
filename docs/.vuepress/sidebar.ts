@@ -4,7 +4,7 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "华东师范大学课程共享计划",
+      text: "课程",
       icon: "book",
       prefix: "courses/",
       link: "courses/",

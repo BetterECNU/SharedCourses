@@ -1,7 +1,7 @@
 ---
 home: true
 icon: house
-title: 项目主页
+title: 主页
 # TODO: logo.svg
 heroImage: https://drive.vanillaaaa.org/p/SharedCourses/logo.png?sign=Gt94tCDy5QpjoruGeP58uylLeoDpJtiRT8r5V8nuMZw=:0
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
