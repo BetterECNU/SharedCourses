@@ -1,12 +1,6 @@
 ---
 title: 计算机系统
-category:
-  - 软件工程学院
-  - 课程资料
-tag:
-  - 计算机系统
-  - 核心课程
-  - 系统原理
+order: 1
 ---
 
 # 计算机系统
@@ -31,8 +25,8 @@ tag:
 
 [xb老师2025年最后一节课讲的题目.pdf](../res/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F/%E9%87%8D%E7%82%B9/xb%E8%80%81%E5%B8%882025%E5%B9%B4%E6%9C%80%E5%90%8E%E4%B8%80%E8%8A%82%E8%AF%BE%E8%AE%B2%E7%9A%84%E9%A2%98%E7%9B%AE.pdf)
 
-???+ note 
-    
+???+ note
+
     里面的每一道题目都出现在了2025年期末考试当中.
 
 ## 模拟卷
@@ -62,3 +56,4 @@ tag:
 [计算机系统模拟试卷2.docx](../res/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99%20%28%E9%9D%9E%E6%A0%A1%E5%86%85%E8%B5%84%E6%BA%90%29/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%A8%A1%E6%8B%9F%E8%AF%95%E5%8D%B72.docx)
 
 [计算机系统模拟试卷2答案.docx](../res/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99%20%28%E9%9D%9E%E6%A0%A1%E5%86%85%E8%B5%84%E6%BA%90%29/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%A8%A1%E6%8B%9F%E8%AF%95%E5%8D%B72%E7%AD%94%E6%A1%88.docx)
+
