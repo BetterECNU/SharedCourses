@@ -23,7 +23,9 @@
 
 ### 贡献者
 
-[![Contributors](https://contributors-img.web.app/image?repo=BetterECNU/SharedCourses&max=105&columns=15)](https://github.com/BetterECNU/SharedCourses/graphs/contributors)
+<a href="https://github.com/betterecnu/sharedcourses/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=betterecnu/sharedcourses" alt="Contributors"/>
+</a>
 
 ## 项目结构
 
