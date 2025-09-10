@@ -5,8 +5,7 @@ dir:
 ---
 
 
-!!! warning "施工中"
 
 ## 真题卷
 
-[通用学术英语读写_大学英语教学部_2024Fall_期中_A.pdf](../res/%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD%E6%95%99%E5%AD%A6%E9%83%A8/%E9%80%9A%E7%94%A8%E5%AD%A6%E6%9C%AF%E8%8B%B1%E8%AF%AD%E8%AF%BB%E5%86%99/%E7%9C%9F%E9%A2%98%E5%8D%B7/%E9%80%9A%E7%94%A8%E5%AD%A6%E6%9C%AF%E8%8B%B1%E8%AF%AD%E8%AF%BB%E5%86%99_%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD%E6%95%99%E5%AD%A6%E9%83%A8_2024Fall_%E6%9C%9F%E4%B8%AD_A.pdf)
+[2024-2025学年上学期期中_A](https://drive.vanillaaaa.org/SharedCourses/大学英语教学部/通用学术英语读写/2024-2025学年上学期期中_A.pdf)
