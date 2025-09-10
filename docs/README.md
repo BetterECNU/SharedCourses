@@ -2,6 +2,7 @@
 title: ECNU·课栈
 sidebar_position: 0
 ---
+# ECNU·课栈
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BetterECNU/SharedCourses?style=for-the-badge)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/BetterECNU/SharedCourses?style=for-the-badge&link=https%3A%2F%2Fgithub.com%2FBetterECNU%2FSharedCourses%2Fissues)
@@ -34,8 +35,8 @@ sidebar_position: 0
 
 ``` markdown
 docs/
-├── courses/        # 课程资料目录
-└── .vuepress/      # 项目配置
+├── undergraduate/  # 本科生课程资料目录
+└── README.md       # docs 路由中的置顶文档
 ```
 
 ## 联系我们
