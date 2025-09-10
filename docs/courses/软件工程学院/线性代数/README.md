@@ -4,19 +4,12 @@ dir:
   link: true
 ---
 
-
-!!! warning "施工中"
+> 2023Fall 与 2024Fall 的《线性代数（计算机拔尖基地）》由btm老师授课.
+>
+>因此可以同时参考[数据科学与工程-线性代数（计算机拔尖基地）](../../数据科学与工程学院/线性代数（计算机拔尖基地）)中 2023Fall 和 2024Fall 的卷子.
 
 ## 真题卷
 
-???+ note
-
-    2023Fall 与 2024Fall 的《线性代数（计算机拔尖基地）》由btm老师授课.
-
-    因此可以同时参考[数据科学与工程-线性代数（计算机拔尖基地）](../%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%EF%BC%88%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8B%94%E5%B0%96%E5%9F%BA%E5%9C%B0%EF%BC%89.md)中 2023Fall 和 2024Fall 的卷子.
-
-[线性代数_软件工程学院_2023Fall_期中_A.pdf](../res/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%9C%9F%E9%A2%98%E5%8D%B7/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0_%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2_2023Fall_%E6%9C%9F%E4%B8%AD_A.pdf)
-
-[线性代数_软件工程学院_2024Fall_期中_A.pdf](../res/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%9C%9F%E9%A2%98%E5%8D%B7/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0_%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2_2024Fall_%E6%9C%9F%E4%B8%AD_A.pdf)
-
-[线性代数_软件工程学院_2024Fall_期中_A_答案.pdf](../res/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%9C%9F%E9%A2%98%E5%8D%B7/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0_%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2_2024Fall_%E6%9C%9F%E4%B8%AD_A_%E7%AD%94%E6%A1%88.pdf)
+[2023-2024学年上学期期中_A](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/线性代数/2023-2024学年上学期期中_A.pdf)
+[2024-2025学年上学期期中_A](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/线性代数/2024-2025学年上学期期中_A.pdf)
+[2024-2025学年上学期期中_A_答案](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/线性代数/2024-2025学年上学期期中_A_答案.pdf)

@@ -19,4 +19,4 @@ dir:
 
 ## 真题卷
 
-[数据结构与算法_软件工程学院_2025Spring_期中_A_dyg.pdf](../res/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%9C%9F%E9%A2%98%E5%8D%B7/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95_%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2_2025Spring_%E6%9C%9F%E4%B8%AD_A_dyg.pdf)
+[2024-2025学年下学期_期中_A_杜育根](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/数据结构与算法/2024-2025学年下学期_期中_A_杜育根.pdf)

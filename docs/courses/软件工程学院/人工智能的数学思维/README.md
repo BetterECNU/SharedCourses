@@ -4,15 +4,16 @@ dir:
   link: true
 ---
 
+## 2022-2023学年下学期
 
-!!! warning "施工中"
+考核方式为期末调研小论文, 我组内容是奇异值分解
 
-## 真题卷
+## 2024-2025学年下学期
 
-[人工智能的数学思维_软件工程学院_2025Spring_期末_回忆版.mdx](../res/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E6%95%B0%E5%AD%A6%E6%80%9D%E7%BB%B4/%E7%9C%9F%E9%A2%98%E5%8D%B7/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E6%95%B0%E5%AD%A6%E6%80%9D%E7%BB%B4_%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2_2025Spring_%E6%9C%9F%E6%9C%AB_%E5%9B%9E%E5%BF%86%E7%89%88.mdx)
+### 真题卷
+
+[2024-2025学年下学期_期末_回忆版](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/人工智能的数学思维/2024-2025学年下学期_期末_回忆版.mdx)
 
 ## PPT
 
-[wltPPT2025.zip](../res/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E6%95%B0%E5%AD%A6%E6%80%9D%E7%BB%B4/PPT/wltPPT2025.zip)
-
-[wmPPT2025.zip](../res/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E6%95%B0%E5%AD%A6%E6%80%9D%E7%BB%B4/PPT/wmPPT2025.zip)
+- [2024-2025学年下学期](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/人工智能的数学思维/PPT)
