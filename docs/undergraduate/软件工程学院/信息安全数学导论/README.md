@@ -1,7 +1,5 @@
 ﻿---
 title: 信息安全数学导论
-dir:
-  link: true
 ---
 
 很简单

@@ -1,7 +1,5 @@
 ﻿---
 title: 数字逻辑
-dir:
-  link: true
 ---
 
 

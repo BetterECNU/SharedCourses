@@ -1,7 +1,5 @@
 ﻿---
 title: 通用学术英语读写
-dir:
-  link: true
 ---
 
 

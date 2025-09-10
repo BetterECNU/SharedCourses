@@ -1,7 +1,5 @@
 ﻿---
 title: 数据结构与算法实践
-dir:
-  link: true
 ---
 
 
