@@ -30,7 +30,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "SharedCourses - 华东师范大学课程共享计划",
+  footer: "ECNU·课栈 - 华东师范大学课程共享计划",
   displayFooter: true,
 
   // 多语言配置

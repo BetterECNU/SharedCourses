@@ -8,8 +8,8 @@ bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: SharedCourses
-tagline: 华东师范大学课程共享计划 - 统一汇总，公开共享，开放更新
+heroText: ECNU·课栈
+tagline: 华东师范大学课程共享计划<br>统一汇总，公开共享，开放更新
 actions:
   - text: 开始
     icon: lightbulb
@@ -107,5 +107,5 @@ highlights:
         icon: magnifying-glass
         details: 内置搜索功能，快速定位所需课程和资料
 
-footer: SharedCourses - 华东师范大学课程共享计划
+footer: ECNU·课栈 - 华东师范大学课程共享计划
 ---
