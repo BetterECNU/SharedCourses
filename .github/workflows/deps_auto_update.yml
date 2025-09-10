@@ -1,0 +1,50 @@
+name: Deps Auto Update
+
+on:
+  schedule:
+    - cron: '0 23 * * *'          # UTC 23:00 → 北京 07:00
+  workflow_dispatch:
+
+jobs:
+  deps_auto_update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: 🔁 Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 📦 Setup Node.js 22.14.0
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.14.0'
+          cache: 'npm'
+
+      - name: 💾 Install dependencies
+        run: npm ci
+
+      - name: 🚀 Run update script
+        run: npm run docs:update-package
+
+      - name: 🔄 Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          author: ${{ vars.ACTION_BOT_NAME }} <${{ vars.ACTION_BOT_EMAIL }}>
+          delete-branch: true
+          assignees: KirisameVanilla
+          commit-message: 'chore(deps): auto-update deps'
+          title: 'chore(deps): auto-update deps'
+          body: |
+            This PR was automatically created by GitHub Actions to update dependencies.
+            
+            📅 Scheduled daily update.
+          branch: auto-update/${{ github.run_id }}
+          base: main
+          labels: deps
+          add-paths: | 
+            .
