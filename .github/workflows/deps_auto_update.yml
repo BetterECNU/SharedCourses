@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: 🔁 Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 📦 Setup Node.js 22.14.0
         uses: actions/setup-node@v4
@@ -32,6 +34,9 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          author: ${{ vars.ACTION_BOT_NAME }} <${{ vars.ACTION_BOT_EMAIL }}>
+          delete-branch: true
+          assignees: KirisameVanilla
           commit-message: 'chore(deps): auto-update deps'
           title: 'chore(deps): auto-update deps'
           body: |
@@ -40,7 +45,6 @@ jobs:
             📅 Scheduled daily update.
           branch: auto-update/${{ github.run_id }}
           base: main
-          labels: automated, dependencies
+          labels: deps
           add-paths: | 
             .
-          draft: false
