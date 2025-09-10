@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://courses.ecnu.vanillaaaa.org",
+  hostname: "https://myecnu.org",
 
   pageInfo: ["Author"],
 

@@ -14,7 +14,7 @@
 
 ## 快速开始
 
-1. 访问 [项目网站](https://courses.ecnu.vanillaaaa.org/) 浏览和下载资料
+1. 访问 [myecnu.org](https://myecnu.org) 或 [courses.vanillaaaa.org](https://courses.vanillaaaa.org) 浏览和下载资料
 2. 贡献资料: Fork 本仓库, 按命名规范添加资料, 提交 PR, 等待审核合并
 
 ## 贡献指南
