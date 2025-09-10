@@ -1,5 +1,7 @@
----
+﻿---
 title: 软件工程数学
+dir:
+  link: true
 ---
 
 

@@ -1,5 +1,7 @@
----
+﻿---
 title: 英语畅谈中国文化
+dir:
+  link: true
 author:
     - name: KirisameVanilla
       url: https://vanillaaaa.org/

@@ -1,5 +1,7 @@
----
+﻿---
 title: 软件工程实践
+dir:
+  link: true
 ---
 
 

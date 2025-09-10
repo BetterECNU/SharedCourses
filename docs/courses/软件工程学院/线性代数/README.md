@@ -1,5 +1,7 @@
----
+﻿---
 title: 线性代数
+dir:
+  link: true
 ---
 
 

@@ -1,5 +1,7 @@
----
+﻿---
 title: 密码分析学
+dir:
+  link: true
 ---
 
 
