@@ -16,18 +16,7 @@ actions:
     link: ./courses/
     type: primary
 
-  - text: 文档
-    link: ./guide/
-
 highlights:
-  - header: 项目特色
-    image: /assets/image/features.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
-    highlights:
-      - title: <strong>统一汇总</strong> - 将分散的课程资源集中到一个平台
-      - title: <strong>公开共享</strong> - 秉承开源精神，任何人都能自由访问与使用
-
   - header: 解决现状问题
     description: 针对目前华师大课程资料的现状，我们提供系统性解决方案
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
@@ -85,8 +74,8 @@ highlights:
   - header: 参与贡献
     description: 成为课程共享计划的贡献者，帮助更多同学
     image: /assets/image/blog.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     highlights:
       - title: 提交资料
         details: 按照命名规范整理资料，通过PR或邮件提交
@@ -118,6 +107,5 @@ highlights:
         icon: magnifying-glass
         details: 内置搜索功能，快速定位所需课程和资料
 
-copyright: false
 footer: SharedCourses - 华东师范大学课程共享计划
 ---

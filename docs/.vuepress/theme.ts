@@ -121,7 +121,8 @@ export default hopeTheme({
     },
 
     icon: {
-      prefix: "fa6-solid:",
+      prefix: "fa-solid:",
+      assets: "fontawesome"
     },
 
     slimsearch: {
