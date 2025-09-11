@@ -1,8 +1,8 @@
-# <center>华东师范大学软件学院实验报告</center>
-| **实验课程：** 计算机网络 | **年级:** 2024         | **实验成绩：**                              |
-| :------------------------ | :--------------------- | :------------------------------------------ |
-| **实验名称：** TCP        | **姓名：**       | **实验日期：** <br>2024.12.27<br>2025.01.03 |
-| **实验编号：** 6          | **学号：**  | **实验时间：** 2学时                        |
+---
+title: Lab6 - TCP
+---
+
+# 华东师范大学软件学院实验报告
 
 ## 一、实验目的
 
@@ -110,33 +110,33 @@
 
     <table align="center">
         <tr>
-            <td align="center" colspan=20>TCP 报头</td>
+            <td align="center" colspan='20'>TCP 报头</td>
             <td align="center">TCP 负载</td>
         </tr>
         <tr>
-            <td align="center">源端口<td>
-            <td align="center">目标端口<td>
-            <td align="center">序列号<td>
-            <td align="center">确认号<td>
-            <td align="center">报头长度<td>
-            <td align="center">Flags<td>
-            <td align="center">窗口<td>
-            <td align="center">校验和<td>
-            <td align="center">紧急指针<td>
-            <td align="center">Options<td>
-            <td a序列号: 0, ACK号: 1lign="center">TCP Payloads</td>
+            <td align="center">源端口</td>
+            <td align="center">目标端口</td>
+            <td align="center">序列号</td>
+            <td align="center">确认号</td>
+            <td align="center">报头长度</td>
+            <td align="center">Flags</td>
+            <td align="center">窗口</td>
+            <td align="center">校验和</td>
+            <td align="center">紧急指针</td>
+            <td align="center">Options</td>
+            <td align="center">TCP Payloads</td>
         </tr>
         <tr>
-            <td align="center">2 bytes<td>
-            <td align="center">2 bytes<td>
-            <td align="center">4 bytes<td>
-            <td align="center">4 bytes<td>
-            <td align="center">4 bits<td>
-            <td align="center">12 bits<td>
-            <td align="center">2 bytes<td>
-            <td align="center">2 bytes<td>
-            <td align="center">2 bytes<td>
-            <td align="center">12 bytes<td>
+            <td align="center">2 bytes</td>
+            <td align="center">2 bytes</td>
+            <td align="center">4 bytes</td>
+            <td align="center">4 bytes</td>
+            <td align="center">4 bits</td>
+            <td align="center">12 bits</td>
+            <td align="center">2 bytes</td>
+            <td align="center">2 bytes</td>
+            <td align="center">2 bytes</td>
+            <td align="center">12 bytes</td>
             <td align="center">Many bytes</td>
         </tr>
     </table>
@@ -196,7 +196,7 @@
         ```
 
 5. TCP 数据传输
-    
+
     IO 图表如图：
 
     ![IO](lib6-5.png)
@@ -204,11 +204,11 @@
     ![IO](lib6-6.png)
 
     1. 下载方向的大致数据速率是
-        
+
         $$
         \frac{\frac{1}{8}(18+35+13+8+46+23+28+21) packets}{0.1 s} = 240\ packets/s
         $$
-        
+
         $$
         \frac{\frac{1}{8}(185300+401500+149100+91780+527700+263900+321200+226600) bits}{0.1 s} =2708850\ bits/s
         $$
@@ -224,7 +224,7 @@
         $$
         \frac{\frac{1}{8}(16+29+13+8+32+10+23+22) packets}{0.1 s} = 191.25\ packets/s
         $$
-        
+
         $$
         \frac{\frac{1}{8}(8448+15310+6864+4224+16990+5280+12140+11620) bits}{0.1 s} =101095\ bits/s
         $$

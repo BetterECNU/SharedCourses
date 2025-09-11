@@ -5,11 +5,9 @@ title: 计算机网络
 
 !!! warning "施工中"
 
-# 计算机网络
-
 ## 实验报告
 
-- [lab1](./lab/lab1/lab1)
+- [lab1](./lab/lab1/lab1.md)
 - [lab2 Ethernet](./lab/lab2/lib2)
 - [lab3 IPV4](./lab/lab3/lib3)
 - [lab4 ARP](./lab/lab4/lib4)

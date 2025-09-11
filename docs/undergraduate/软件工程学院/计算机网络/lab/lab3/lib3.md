@@ -1,9 +1,8 @@
+---
+title: Lab3 - IPv4
+---
 
-# <center>华东师范大学软件学院实验报告</center>
-| **实验课程：** 计算机网络 | **年级:** 2024         | **实验成绩：**            |
-| :------------------------ | :--------------------- | :------------------------ |
-| **实验名称：** IPV4   | **姓名：**       | **实验日期：** 2024.12.08 |
-| **实验编号：** 3          | **学号：**  | **实验时间：** 2学时      |
+# 华东师范大学软件学院实验报告
 
 ## 一、实验目的
 
@@ -38,7 +37,6 @@
     3. 将得到的和分为两段，使得其中的一段为最右边的 4 位 16 进制数，计算两段之和；
     4. 检查结果是否为 0xffff 。
 
-
 ## 三、实验环境
 
 - 实验仪器：ThinkPad X230i
@@ -50,9 +48,10 @@
 ## 四、实验过程与分析
 
 1. 捕获轨迹
-    ![wget](./lib3/lib3-2.png)
+    ![wget](./lib3-2.png)
     traceroute 获取到的信息如下：
-    ```
+
+    ``` bash
     traceroute to 1st.moe (52.74.232.59), 30 hops max, 60 byte packets
      1  * * *
      2  10.100.5.1 (10.100.5.1)  8.795 ms  8.962 ms  9.096 ms
@@ -85,20 +84,20 @@
     29  * * *
     30  * * *
     ```
-2.
-    ![wget](./lib3/lib3-2.png)
+
+2. ![wget](./lib3-2.png)
+
 3.
     1. IP结构
         <table align="center">
             <tr>
-                <td align="center" colspan=12>IP</td>
+                <td align="center" colspan='12'>IP</td>
                 <td align="center">TCP</td>
             </tr>
             <tr>
                 <td align="center">Version</td>
                 <td align="center">Header Length</td>
-                <td align="center">Differentiated 
-                Services Field</td>
+                <td align="center">Differentiated Services Field</td>
                 <td align="center">Total Length</td>
                 <td align="center">Identification</td>
                 <td align="center">Flags</td>
@@ -108,7 +107,7 @@
                 <td align="center">Header Checksum</td>
                 <td align="center">Source Address</td>
                 <td align="center">Destinatoin Address</td>
-                <td align="center" rowspan=2>32 Bytes</td>
+                <td align="center" rowspan='2'>32 Bytes</td>
             </tr>
             <tr>
                 <td align="center">4 bits</td>
@@ -125,21 +124,22 @@
                 <td align="center">4 Bytes</td>
             </tr>
             <tr>
-                <td align="center" colspan=12>Ethernet Header</td>
+                <td align="center" colspan='12'>Ethernet Header</td>
                 <td align="center">Ethernet Payload</td>
-            <tr>
+            </tr>
         </table>
-    2. 
+    2.  
         1. 服务端 IP 地址为 52.74.232.59；电脑 IP 地址为 172.30.218.6
         2. 总长字段为 52 = 20 + 32 ，所以计算时包含 IP 报头与 IP 负载
         3. 不同
         4. 电脑发送的 TTL 值为 38 ，是一个较小的值
         5. 通过查看 Flags 字段
         6. 长度为 20 Bytes ，编码在 IP 报头第一个字节的 4~8 位
-4. 
-    ![wget](./lib3/lib3-3.png)
+4.  
+    ![wget](./lib3-3.png)
 5. 执行如下代码：
-    ```
+
+    ``` c
     #include<bits/stdc++.h>
 
     using namespace std;
@@ -150,4 +150,5 @@
         return 0;
     }
     ```
+
     其结果为0x4fffb，计算4+fffb=ffff，故正确。

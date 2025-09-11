@@ -1,8 +1,8 @@
-# <center>华东师范大学软件学院实验报告</center>
-| **实验课程：** 计算机网络 | **年级:** 2024         | **实验成绩：**            |
-| :------------------------ | :--------------------- | :------------------------ |
-| **实验名称：** ARP        | **姓名：**       | **实验日期：** 2024.12.13 |
-| **实验编号：** 4          | **学号：**  | **实验时间：** 2学时      |
+---
+title: Lab4 - ARP
+---
+
+# 华东师范大学软件学院实验报告
 
 ## 一、实验目的
 
@@ -42,7 +42,8 @@
 
 1. 捕获
     1. 执行`ifconfig`指令，得到的输出如下：
-        ```
+
+        ``` bash
         enp0s25: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
             ether 3c:97:0e:27:a3:96  txqueuelen 1000  (Ethernet)
             RX packets 0  bytes 0 (0.0 B)
@@ -69,27 +70,31 @@
             TX packets 4771  bytes 2531632 (2.4 MiB)
             TX errors 0  dropped 76 overruns 0  carrier 0  collisions 0
         ```
+
         在 `wlan0` 下的 `ether` 一行可以得知计算机以太网地址为 `e0:06:e6:c4:be:04` 。
     2. 执行 `route` 指令，得到的输出如下：
+
         ```
         Kernel IP routing table
         Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
         default         _gateway        0.0.0.0         UG    600    0        0 wlan0
         172.31.0.0      0.0.0.0         255.255.0.0     U     600    0        0 wlan0
         ```
+
         可以得知默认网关的 ip 地址为 `172.31.0.0` 。
     3. 启动捕获。
     4. 执行 `arp -a` 指令，得到输出 `_gateway (172.31.0.1) at 54:c6:ff:7b:38:02 [ether] on wlan0` 。随后执行 `sudo arp -d 172.31.0.1` 指令清除缓存，该指令没有输出，若重复执行，则会得到 `No ARP entry for 172.31.0.1` 输出。
-    5. 在观察到已经捕获 7 个 ARP 流量包后停止捕获，其界面如图：<br>
+    5. 在观察到已经捕获 7 个 ARP 流量包后停止捕获，其界面如图：  
         ![arp](./lib4-1.png)
-2. 检查捕获<br>
-    *因为捕获到的包数量较少，故不设置过滤器。*<br>
-    请求包：<br>
+2. 检查捕获  
+    *因为捕获到的包数量较少，故不设置过滤器。*  
+    请求包：  
     ![request](./lib4-2.png)
-    回复包：<br>
+    回复包：  
     ![reply](./lib4-3.png)
-3. ARP 请求与回复
+3. ARP 请求与回复  
     其图例如下
+
     ```mermaid
     flowchart LR
     computer[计算机<br>MAC e0:06:e6:c4:be:04<br>IP 172.31.215.159]
@@ -97,6 +102,7 @@
     computer--request<br>Who has 172.31.0.1? Tell 172.31.215.159-->gateway
     gateway--reply<br>172.31.0.1 is at <font color="red"><b>54:c6:ff:7b:38:02</b></font>-->computer
     ```
+
 4. 以太网上的 ARP 详细信息
     1. 请求的操作码为 `0x0001` ，回复的操作码为 `0x0002` 。
     2. 请求与回复的的 ARP 报头均为 28 bytes，对于报文，请求的报文为 42 bytes，回复的报文为60 bytes。
