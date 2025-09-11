@@ -1,9 +1,8 @@
-# <center>华东师范大学软件学院实验报告</center>
+---
+title: Lab7 - Socket Programming
+---
 
-| **实验课程：** 计算机网络         | **年级:** 2024         | **实验成绩：**            |
-| :-------------------------------- | :--------------------- | :------------------------ |
-| **实验名称：** Socket Programming | **姓名：**       | **实验日期：** 2025.01.03 |
-| **实验编号：** 7                  | **学号：**  | **实验时间：** 2学时      |
+# 华东师范大学软件学院实验报告
 
 ## 一、实验目的
 
@@ -39,7 +38,7 @@
 
 3. 启动0号客户端,此时 Wireshark 捕获到三次握手包，观察到0号客户端采用44514端口：
 
-![png1](./lib7-2.png)
+    ![png1](./lib7-2.png)
 
 4. 发送文本测试
 
@@ -163,7 +162,7 @@
  * Changed port from 5432 (postgresql) to 7701 (unassigned).
  * - JLND Feb 7 2009
  */
-#include<unistd.h>
+#include <unistd.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
@@ -176,8 +175,7 @@
 #define SERVER_PORT 7701
 #define MAX_LINE 256
 
-int
-main(int argc, char * argv[])
+int main(int argc, char * argv[])
 {
   FILE *fp;
   struct hostent *hp;
@@ -237,7 +235,7 @@ main(int argc, char * argv[])
  * Changed port from 5432 (postgresql) to 7701 (unassigned).
  * - JLND Feb 7 2009
  */
-#include<unistd.h>
+#include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
 #include <strings.h>
@@ -250,8 +248,7 @@ main(int argc, char * argv[])
 #define MAX_PENDING 5
 #define MAX_LINE 256
 
-int
-main()
+int main()
 {
   struct sockaddr_in sin;
   char buf[MAX_LINE];
