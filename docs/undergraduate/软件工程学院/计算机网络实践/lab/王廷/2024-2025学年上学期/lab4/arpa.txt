@@ -1,0 +1,1 @@
+_gateway (172.31.0.1) at 54:c6:ff:7b:38:02 [ether] on wlan0

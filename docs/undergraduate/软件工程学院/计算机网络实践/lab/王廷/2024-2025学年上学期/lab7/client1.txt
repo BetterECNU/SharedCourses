@@ -1,0 +1,7 @@
+❯ ./client localhost
+client1
+text from client1
+client1 stop
+^C
+./client
+usage: simplex-talk host
