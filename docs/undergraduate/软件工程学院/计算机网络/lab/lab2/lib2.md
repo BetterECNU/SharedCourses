@@ -1,10 +1,8 @@
-# <center>华东师范大学软件学院实验报告</center>
-| **实验课程：** 计算机网络 | **年级:** 2024         | **实验成绩：**            |
-| :------------------------ | :--------------------- | :------------------------ |
-| **实验名称：** Ethernet   | **姓名：**       | **实验日期：** 2024.11.29 |
-| **实验编号：** 2          | **学号：**  | **实验时间：** 2学时      |
-
 ---
+title: Lab2 - Ethernet
+---
+
+# 华东师范大学软件学院实验报告
 
 ## 一、实验目的
 
@@ -23,11 +21,11 @@
 3. 以太网帧结构
     绘制一个显示以太网头字段位置与大小的 ping 报文图。
 4. 以太网地址范围
-    绘制一张图，显示电脑、路由器、远程服务器的相对位置。<br>
-    用以太网地址标注计算机与路由器，IP 地址标注计算机与远程服务器。<br>
+    绘制一张图，显示电脑、路由器、远程服务器的相对位置。  
+    用以太网地址标注计算机与路由器，IP 地址标注计算机与远程服务器。  
     并显示以太网和互联网其他部分在图中的位置。
 5. 广播帧
-    启动 Wireshark ，选择过滤 ether multicast ，等待一段时间，捕获广播与组播以太网帧，并根据结果完成以下两个任务：<br>
+    启动 Wireshark ，选择过滤 ether multicast ，等待一段时间，捕获广播与组播以太网帧，并根据结果完成以下两个任务：  
     1. 找到广播以太网地址
     2. 找到以太网地址的哪一位确认是单播还是组播
 
@@ -41,22 +39,22 @@
 
 ## 四、实验过程与分析
 
-1. 捕获帧<br>
-    ![ping](./lib3-1.png)<br>
-    ![Wireshark](./lib3-2.png)
-2. 检查捕获到的数据<br>   
-    ![ping](./lib3-3.png)
-3. 以太网帧结构<br>
-    <table align="center">
+1. 捕获帧  
+    ![ping](./lib2-1.png)  
+    ![Wireshark](./lib2-2.png)
+2. 检查捕获到的数据  
+    ![ping](./lib2-3.png)
+3. 以太网帧结构  
+    <table>
         <tr>
-            <td align="center" colspan=3>Ethernet II</td>
+            <td align="center" colspan='3'>Ethernet II</td>
             <td align="center">IP&ICMP</td>
         </tr>
         <tr>
             <td align="center">Destination</td>
             <td align="center">Source</td>
             <td align="center">Type</td>
-            <td align="center" rowspan=2>60 Bytes</td>
+            <td align="center" rowspan='2'>60 Bytes</td>
         </tr>
         <tr>
             <td align="center">6 Bytes</td>
@@ -64,15 +62,15 @@
             <td align="center">2 Bytes</td>
         </tr>
         <tr>
-            <td align="center" colspan=3>Ethernet Header</td>
+            <td align="center" colspan='3'>Ethernet Header</td>
             <td align="center">Ethernet Payload</td>
-        <tr>
+        </tr>
     </table>
-4. 以太网地址范围<br>
+4. 以太网地址范围  
     ![mermaid](./lib2-5.png)
-5. 广播帧
-    捕获内容如图：<br>
-    ![broadcast](./lib3-4.png)<br>
+5. 广播帧  
+    捕获内容如图：  
+    ![broadcast](./lib2-4.png)  
     1. 以太网地址为 ff:ff:ff:ff:ff:ff，在 Wireshark 中标注为 Broadcast
     2. 第一个字节的末位为1是组播，反之则是单播，所有比特均为1则是广播
 

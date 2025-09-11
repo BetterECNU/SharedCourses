@@ -1,4 +1,5 @@
 # <center>华东师范大学软件学院实验报告</center>
+
 | **实验课程：** 计算机网络         | **年级:** 2024         | **实验成绩：**            |
 | :-------------------------------- | :--------------------- | :------------------------ |
 | **实验名称：** Socket Programming | **姓名：**       | **实验日期：** 2025.01.03 |
@@ -44,9 +45,9 @@
 
     1. 0号客户端发送测试文本0（测试短文本)：`text0:hello, world`，服务端显示：`text0:hello, world`，正常发送，Wireshark 捕获到的包信息如下。
 
-        ![png3](./lib7-3.png)    
+        ![png3](./lib7-3.png)
 
-    2. 0号客户端发送测试文本1（测试ACSII可显示字符)：text1: !"#\$%&'()\*+,-./0123456789:;<=>?\`ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^\_@abcdefghijklmnopqrstuvwxyz{|}~，服务端显示：text1: !"#\$%&'()\*+,-./0123456789:;<=>?\`ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^\_@abcdefghijklmnopqrstuvwxyz{|}~，正常发送，Wireshark 捕获到的包信息如下。
+    2. 0号客户端发送测试文本1（测试ACSII可显示字符)：text1:  ``!"#\$%&'()*+,-./0123456789:;<=>?`ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_@abcdefghijklmnopqrstuvwxyz{|}~``，服务端显示：text1: ``!"#\$%&'()*+,-./0123456789:;<=>?`ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_@abcdefghijklmnopqrstuvwxyz{|}~``，正常发送，Wireshark 捕获到的包信息如下。
 
         ![png4](./lib7-4.png)
 
@@ -59,7 +60,7 @@
     4. 0号客户端发送测试文本3（测试中文文本)：`text3:你好，世界`，服务端显示：`text3:你好，世界`，正常发送，Wireshark 捕获到的包信息如下。
 
         ![png7](./lib7-7.png)
-        
+
     5. 0号客户端发送测试文本4（测试长文本)：`text4:0123456789abcdef...0123456789abcdef`（共计32774字节），服务端显示：`text4:0123456789abcdef...012345678`（共计4096字节），文本发送不正常，仅发送前 4096 字节，检查 Wireshark ，可以发现0号客户端共发送16个包，前15个包中每个包携带255字节的文本，最后一个包携带16字节的文本，捕获到的第一个与最后一个客户端包信息如下。
 
         ![png](./lib7-8.png)
@@ -91,17 +92,17 @@
         ![png12](./lib7-12.png)
 
         0号客户端发送了带有 SYN 的信息包，由于服务端已经关闭，7701端口空闲，故返回带有RST的数据报，0号客户端收到后报告错误并退出
-    
+
     7. 执行指令`./client`，不指定地址，报错`usage: simplex-talk host`
 
 6. 多客户端测试
-    
+
     1. 重新启动服务端
     2. 启动0号客户端，观察 Wireshark ，可以发现0号客户端使用端口为53092
     3. 0号客户端发送文本`client0`，服务端显示：`client0`，正常发送。
     4. 启动1号客户端，观察 Wireshark ，可以发现1号客户端使用端口为43676，Wireshark 捕获包信息如下：
 
-        ![png13](./lib7-13.png)        
+        ![png13](./lib7-13.png)
 
     5. 1号客户端发送文本`client1`，服务端没有显示，但 Wireshark 捕获到信息包。
     6. 0号客户端发送文本`text from client0`，服务端显示`text from client0`，正常发送。
@@ -124,9 +125,9 @@
     5. 尝试重新启动服务端，报错`simplex-talk: bind: Address already in use`，Wireshark 未捕获到内容
     6. 客户端退出
     7. 尝试重新启动服务端，服务端正常运行
-    
+
     测试截图如下：
-    
+
     ![png15](./lib7-15.png)
 
 8. 局域网通信测试
@@ -281,7 +282,7 @@ main()
       exit(1);
     }
     while (len = recv(new_s, buf, sizeof(buf), 0))
-      fputs(buf, stdout);	
+      fputs(buf, stdout); 
     close(new_s);
   }
 }
