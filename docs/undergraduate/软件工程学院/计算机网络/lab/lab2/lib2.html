@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>&lt;center&gt;&#x534e;&#x4e1c;&#x5e08;&#x8303;&#x5927;&#x5b66;&#x8f6f;&#x4ef6;&#x5b66;&#x9662;&#x5b9e;&#x9a8c;&#x62a5;&#x544a;&lt;&sol;center&gt;</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="华东师范大学软件学院实验报告"><center>华东师范大学软件学院实验报告</center></h1>
+<table align="center">
+<thead>
+<tr>
+<th style="text-align:left"><strong>实验课程：</strong> 计算机网络</th>
+<th style="text-align:left"><strong>年级:</strong> 2024</th>
+<th style="text-align:left"><strong>实验成绩：</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>实验名称：</strong> Ethernet</td>
+<td style="text-align:left"><strong>姓名：</strong> 张春晓</td>
+<td style="text-align:left"><strong>实验日期：</strong> 2024.11.29</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>实验编号：</strong> 2</td>
+<td style="text-align:left"><strong>学号：</strong> 10234507025</td>
+<td style="text-align:left"><strong>实验时间：</strong> 2学时</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="一实验目的">一、实验目的</h2>
+<p>学习以太网帧的组成</p>
+<h2 id="二使用内容与实验步骤">二、使用内容与实验步骤</h2>
+<ol>
+<li>捕获帧
+<ol>
+<li>对一个远程服务器使用 ping 指令发送信息，并检查是否有回复；</li>
+<li>启动 Wireshark ，选择过滤 icmp ，开启“启用 MAC 名称解析”选项，开始捕获以太网帧；</li>
+<li>重复第一步；</li>
+<li>终止 ping 指令，返回 Wireshark 并停止捕获。</li>
+</ol>
+</li>
+<li>检查捕获到的数据
+<ol>
+<li>选择捕获到的任意数据包，查看其结构与组成数据包字节的详细信息；</li>
+<li>展开以太网报头字段并查看详细信息。</li>
+</ol>
+</li>
+<li>以太网帧结构
+绘制一个显示以太网头字段位置与大小的 ping 报文图。</li>
+<li>以太网地址范围
+绘制一张图，显示电脑、路由器、远程服务器的相对位置。<br>
+用以太网地址标注计算机与路由器，IP 地址标注计算机与远程服务器。<br>
+并显示以太网和互联网其他部分在图中的位置。</li>
+<li>广播帧
+启动 Wireshark ，选择过滤 ether multicast ，等待一段时间，捕获广播与组播以太网帧，并根据结果完成以下两个任务：<br>
+<ol>
+<li>找到广播以太网地址</li>
+<li>找到以太网地址的哪一位确认是单播还是组播</li>
+</ol>
+</li>
+</ol>
+<h2 id="三实验环境">三、实验环境</h2>
+<ul>
+<li>实验仪器：ThinkPad X230i</li>
+<li>操作系统：Arch GNU/Linux x86_64</li>
+<li>以太网控制器：Intel Corporation 82575LM Gigabit Network Connection</li>
+<li>网络控制器：Realtek Semiconductor Co., Ltd. RTL8188CE 820.11b/g/n WiFi Adapter</li>
+<li>网络连接：校园网ECNU-1X</li>
+</ul>
+<h2 id="四实验过程与分析">四、实验过程与分析</h2>
+<ol>
+<li>捕获帧<br>
+<img src="file:////home/chiyoyuki/homework/conputer_network/lib3-1.png" alt="ping"><br>
+<img src="file:////home/chiyoyuki/homework/conputer_network/lib3-2.png" alt="Wireshark"></li>
+<li>检查捕获到的数据<br><br>
+<img src="file:////home/chiyoyuki/homework/conputer_network/lib3-3.png" alt="ping"></li>
+<li>以太网帧结构<br> <table align="center">
+     <tr>
+         <td align="center" colspan=3>Ethernet II</td>
+         <td align="center">IP&ICMP</td>
+     </tr>
+     <tr>
+         <td align="center">Destination</td>
+         <td align="center">Source</td>
+         <td align="center">Type</td>
+         <td align="center" rowspan=2>60 Bytes</td>
+     </tr>
+     <tr>
+         <td align="center">6 Bytes</td>
+         <td align="center">6 Bytes</td>
+         <td align="center">2 Bytes</td>
+     </tr>
+     <tr>
+         <td align="center" colspan=3>Ethernet Header</td>
+         <td align="center">Ethernet Payload</td>
+     <tr>
+ </table>
+</li>
+<li>以太网地址范围<br>
+<img src="file:////home/chiyoyuki/homework/conputer_network/lib2-5.png" alt="mermaid"></li>
+<li>广播帧
+捕获内容如图：<br>
+<img src="file:////home/chiyoyuki/homework/conputer_network/lib3-4.png" alt="broadcast"><br>
+<ol>
+<li>以太网地址为 ff:ff:ff:ff:ff:ff，在 Wireshark 中标注为 Broadcast</li>
+<li>第一个字节的末位为1是组播，反之则是单播，所有比特均为1则是广播</li>
+</ol>
+</li>
+</ol>
+<h2 id="五试验结果总结">五、试验结果总结</h2>
+<p>在本次实验中，我顺利地完成了各项任务，了解并学习到了以太网传输的各项细节</p>
+
+            
+            
+        </body>
+        </html>
