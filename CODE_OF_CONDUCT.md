@@ -5,11 +5,6 @@
 ``` markdown
 ---
 title: 课程名
-category:
-  - 开课学院
-  - 课程类别
-tag:
-  - 课程相关的词条
 ---
 ## 20xx-20xx学年x学期
 
