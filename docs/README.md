@@ -36,6 +36,7 @@ sidebar_position: 0
 ``` markdown
 docs/
 ├── undergraduate/  # 本科生课程资料目录
+├── postgraduate/   # 研究生课程资料目录
 └── README.md       # docs 路由中的置顶文档
 ```
 
