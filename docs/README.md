@@ -36,9 +36,18 @@ sidebar_position: 0
 ``` markdown
 docs/
 ├── undergraduate/  # 本科生课程资料目录
+├── postgraduate/   # 研究生课程资料目录
 └── README.md       # docs 路由中的置顶文档
 ```
+
+:::info
+研究生资料来源于 [tianyilt/ecnu-PGCourseShare](https://github.com/tianyilt/ecnu-PGCourseShare), BetterECNU 团队仅是收录并且更改了索引文档以适用于 docusaurus 框架
+:::
 
 ## 联系我们
 
 如有问题或建议, 欢迎通过 [Issue(推荐)](https://github.com/BetterECNU/SharedCourses/issues) 或 [邮件](mailto:zy1834576129@outlook.com) 联系我们.
+
+## 致谢
+
+[tianyilt/ecnu-PGCourseShare](https://github.com/tianyilt/ecnu-PGCourseShare)
