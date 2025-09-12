@@ -89,6 +89,7 @@ const config = {
         items: [
           {to: '/docs/', label: '课栈', position: 'left'},
           {to: '/docs/category/本科生院', label: '本科生院', position: 'left'},
+          {to: '/docs/category/研究生院', label: '研究生院', position: 'left'},
           {
             href: 'https://github.com/BetterECNU/SharedCourses',
             label: 'GitHub',
@@ -108,6 +109,10 @@ const config = {
               {
                 label: '本科生院',
                 to: '/docs/category/本科生院',
+              },
+              {
+                label: '研究生院',
+                to: '/docs/category/研究生院',
               },
             ],
           },
