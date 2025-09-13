@@ -12,3 +12,5 @@ title: 计算机系统
 ## 其他待整理资料
 
 [计算机系统](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/计算机系统)
+
+[24-25学年春学期肖波班作业及实验参考](https://github.com/Niazye/CSAPP-in-ECNU)
