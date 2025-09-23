@@ -43,6 +43,17 @@ const config = {
     locales: ['zh-Hans'],
   },
 
+  plugins: [
+    [
+        require.resolve('docusaurus-lunr-search'),
+        {
+            languages: ['en', 'zh'],
+            indexBaseUrl: true,
+            highlightResult: true
+        }
+    ]
+  ],
+
   presets: [
     [
       'classic',
