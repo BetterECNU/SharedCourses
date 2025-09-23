@@ -43,15 +43,16 @@ const config = {
     locales: ['zh-Hans'],
   },
 
-  plugins: [
+  themes: [
     [
-        require.resolve('docusaurus-lunr-search'),
-        {
-            languages: ['en', 'zh'],
-            indexBaseUrl: true,
-            highlightResult: true
-        }
-    ]
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      {
+        hashed: true,
+        language: ["en", "zh"],
+        explicitSearchResultPath: true
+      },
+    ],
   ],
 
   presets: [
