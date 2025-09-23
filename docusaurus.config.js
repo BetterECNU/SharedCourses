@@ -162,6 +162,11 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
     }),
   // 以下部分为启用mermaid支持
   // 具体信息请参考http://docusaurus.io/docs/next/markdown-features/diagrams
