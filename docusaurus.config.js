@@ -57,7 +57,11 @@ const config = {
           editUrl:
             'https://github.com/BetterECNU/SharedCourses/tree/main',
         },
-        blog: false,
+        blog: {
+          blogTitle: 'ECNU·课栈博客',
+          blogDescription: '分享生涯经验, 发布项目动态',
+          postsPerPage: 'ALL',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -90,6 +94,7 @@ const config = {
           {to: '/docs/', label: '课栈', position: 'left'},
           {to: '/docs/undergraduate/', label: '本科生院', position: 'left'},
           {to: '/docs/postgraduate/', label: '研究生院', position: 'left'},
+          {to: 'blog', label: '博客', position: 'right'},
           {
             href: 'https://github.com/BetterECNU/SharedCourses',
             label: 'GitHub',
@@ -123,6 +128,10 @@ const config = {
                 label: 'QQ 群聊',
                 href: 'https://qm.qq.com/q/ARnu9JwBfq',
               },
+              {
+                label: '博客',
+                to: '/blog',
+              }
             ],
           },
           {
