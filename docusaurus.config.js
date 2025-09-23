@@ -163,6 +163,12 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  // 以下部分为启用mermaid支持
+  // 具体信息请参考http://docusaurus.io/docs/next/markdown-features/diagrams
+  markdown: {
+    mermaid: true,
+  },
+  themes:['@docusaurus/theme-mermaid'],
 };
 
 export default config;
