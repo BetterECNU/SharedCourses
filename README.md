@@ -6,7 +6,7 @@
 
 > 本项目起源于 [タクヤマ](https://github.com/takuyamafuru) 的 [ECNU_Crypt_Student_Manual](https://github.com/BetterECNU/ECNU_Crypt_Student_Manual)  
 > 由 [Eagle233](https://github.com/Eagle233Fake) 提出整合想法, 并建立第一版仓库 [ECNU-SharedCourses](https://github.com/BetterECNU/ECNU-SharedCourses)  
-> 经由 [KirisameVanilla](https://github.com/KirisameVanilla) 重构, 最终呈现为本仓库.
+> 经由 [KirisameVanilla](https://github.com/KirisameVanilla) 重构, 基于 [Docusaurus](https://github.com/facebook/docusaurus) 搭建网站, 最终呈现为本仓库.
 
 ## 项目简介
 
