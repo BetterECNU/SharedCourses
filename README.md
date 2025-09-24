@@ -1,10 +1,11 @@
 # ECNU·课栈<a href="https://docusaurus.io/docs/category/guides"><img src="https://docusaurus.io/img/docusaurus.svg" height="30" alt="Docusaurus"></a>
 
+<a>
 <a href="https://github.com/BetterECNU/SharedCourses/issues">
 <img src="https://img.shields.io/github/issues/BetterECNU/SharedCourses?style=for-the-badge&link=https%3A%2F%2Fgithub.com%2FBetterECNU%2FSharedCourses%2Fissues" height="30" alt="GitHub Issues or Pull Requests">
 </a>
-<img src="https://img.shields.io/github/stars/BetterECNU/SharedCourses?style=for-the-badge" height="30" alt="GitHub Repo stars">
 <img src="https://img.shields.io/github/repo-size/BetterECNU/SharedCourses?style=for-the-badge" height="30" alt="GitHub repo size">
+</a>
 
 > 本项目起源于 [タクヤマ](https://github.com/takuyamafuru) 的 [ECNU_Crypt_Student_Manual](https://github.com/BetterECNU/ECNU_Crypt_Student_Manual)  
 > 由 [Eagle233](https://github.com/Eagle233Fake) 提出整合想法, 并建立第一版仓库 [ECNU-SharedCourses](https://github.com/BetterECNU/ECNU-SharedCourses)  
