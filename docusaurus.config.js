@@ -53,6 +53,7 @@ const config = {
         explicitSearchResultPath: true
       },
     ],
+    '@docusaurus/theme-mermaid',
   ],
 
   presets: [
@@ -173,7 +174,6 @@ const config = {
   markdown: {
     mermaid: true,
   },
-  themes:['@docusaurus/theme-mermaid'],
 };
 
 export default config;
