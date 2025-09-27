@@ -94,6 +94,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // giscus 评论
+      giscus: {
+        repo: 'BetterECNU/SharedCourses',
+        repoId: 'R_kgDOMR1oyA',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOMR1oyM4CvymL',
+        theme: 'light_high_contrast',
+        darkTheme: 'dark_tritanopia'
+      },
+
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -174,6 +184,8 @@ const config = {
     mermaid: true,
   },
   themes:['@docusaurus/theme-mermaid'],
+  // 以下部分为启用giscus评论
+  clientModules: [require.resolve('./src/clientModules/routeModules.ts')]
 };
 
 export default config;
