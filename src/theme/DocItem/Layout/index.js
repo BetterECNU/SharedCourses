@@ -59,6 +59,7 @@ export default function DocItemLayout({ children }) {
                         category='General'
                         categoryId='DIC_kwDOMR1oyM4CvymM'
                         mapping="pathname"
+                        strict='1'
                         term="Welcome to discuss!"
                         reactionsEnabled='1'
                         emitMetadata='0'
