@@ -1,0 +1,16 @@
+.docItemContainer header + *,
+.docItemContainer article > *:first-child {
+  margin-top: 0;
+}
+
+.commentsContainer {
+  margin-top: 3rem;
+  max-height: 640px;
+  overflow-y: scroll;
+}
+
+@media (min-width: 997px) {
+  .docItemCol {
+    max-width: 75% !important;
+  }
+}
