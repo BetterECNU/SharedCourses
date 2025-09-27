@@ -1,8 +1,11 @@
-# ECNU·课栈
+# ECNU·课栈<a href="https://docusaurus.io/docs/category/guides"><img src="https://docusaurus.io/img/docusaurus.svg" height="30" alt="Docusaurus"></a>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/BetterECNU/SharedCourses?style=for-the-badge)
-![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/BetterECNU/SharedCourses?style=for-the-badge&link=https%3A%2F%2Fgithub.com%2FBetterECNU%2FSharedCourses%2Fissues)
-![GitHub Repo stars](https://img.shields.io/github/stars/BetterECNU/SharedCourses?style=for-the-badge)
+<a>
+<a href="https://github.com/BetterECNU/SharedCourses/issues">
+<img src="https://img.shields.io/github/issues/BetterECNU/SharedCourses?style=for-the-badge&link=https%3A%2F%2Fgithub.com%2FBetterECNU%2FSharedCourses%2Fissues" height="30" alt="GitHub Issues or Pull Requests">
+</a>
+<img src="https://img.shields.io/github/repo-size/BetterECNU/SharedCourses?style=for-the-badge" height="30" alt="GitHub repo size">
+</a>
 
 > 本项目起源于 [タクヤマ](https://github.com/takuyamafuru) 的 [ECNU_Crypt_Student_Manual](https://github.com/BetterECNU/ECNU_Crypt_Student_Manual)  
 > 由 [Eagle233](https://github.com/Eagle233Fake) 提出整合想法, 并建立第一版仓库 [ECNU-SharedCourses](https://github.com/BetterECNU/ECNU-SharedCourses)  
@@ -14,7 +17,7 @@
 
 ## 快速开始
 
-1. 访问 [myecnu.org](https://myecnu.org) 或 [courses.vanillaaaa.org](https://courses.vanillaaaa.org) 浏览和下载资料
+1. 访问 [courses.myecnu.org](https://courses.myecnu.org) 或 [courses.vanillaaaa.org](https://courses.vanillaaaa.org) 浏览和下载资料
 2. 贡献资料: Fork 本仓库, 按命名规范添加资料, 提交 PR, 等待审核合并
 
 ## 贡献指南
@@ -44,4 +47,5 @@ docs/
 
 ## 致谢
 
-[tianyilt/ecnu-PGCourseShare](https://github.com/tianyilt/ecnu-PGCourseShare)
+- [tianyilt/ecnu-PGCourseShare](https://github.com/tianyilt/ecnu-PGCourseShare)
+- [facebook/Docusaurus](https://github.com/facebook/docusaurus)
