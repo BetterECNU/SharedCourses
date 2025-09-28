@@ -61,13 +61,15 @@ function CardCategory({item}) {
   if (!href) {
     return null;
   }
+  const docId = href.substring(6) + 'README';
+  const doc = useDocById(docId ?? undefined);
   return (
     <CardLayout
       className={item.className}
       href={href}
       icon="🗃️"
       title={item.label}
-      description={item.description ?? categoryItemsPlural(item.items.length)}
+      description={item.description ?? doc.description ?? categoryItemsPlural(item.items.length)}
     />
   );
 }
