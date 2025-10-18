@@ -1,5 +1,6 @@
 ﻿---
 title: 数字逻辑
+description: "课程代码: SE1203"
 ---
 
 

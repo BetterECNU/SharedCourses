@@ -24,7 +24,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
         title: '本科生院',
-        description: '本科期间的课程资料汇总，涵盖各类专业必修课和选修课。',
+        description: '本科期间的课程资料汇总，涵盖各类专业必修课和选修课。（在课程名称后面标注了课程代码，但考虑到学校近期对相关内容修改频繁，参考价值较低）',
         slug: '/undergraduate',
       },
       items: [
