@@ -10,6 +10,7 @@ import isInternalUrl from '@docusaurus/isInternalUrl';
 import { translate } from '@docusaurus/Translate';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import CourseCodeTag from './CourseCodeTag';
 function useCategoryItemsPlural() {
     const { selectMessage } = usePluralForm();
     return (count) =>
@@ -36,6 +37,16 @@ function CardContainer({ className, href, children }) {
     );
 }
 function CardLayout({ className, href, icon, title, description }) {
+    // 检查是否以"课程代码:"开头
+    const courseCodePrefix = '课程代码:';
+    let courseCode = null;
+    let displayDescription = description;
+
+    if (description && description.startsWith(courseCodePrefix)) {
+        courseCode = description.substring(courseCodePrefix.length).trim();
+        displayDescription = null; // 不显示原始描述
+    }
+
     return (
         <CardContainer href={href} className={className}>
             <Heading
@@ -44,13 +55,14 @@ function CardLayout({ className, href, icon, title, description }) {
                 title={title}>
                 {icon} {title}
             </Heading>
-            {description && (
+            {displayDescription && (
                 <p
                     className={clsx('text--truncate', styles.cardDescription)}
-                    title={description}>
-                    {description}
+                    title={displayDescription}>
+                    {displayDescription}
                 </p>
             )}
+            {courseCode && <CourseCodeTag code={courseCode} />}
         </CardContainer>
     );
 }
@@ -69,6 +81,7 @@ function CardCategory({ item }) {
     } catch (e) {
         doc = null;
     }
+    console.log(item.description, doc?.description);
     return (
         <CardLayout
             className={item.className}
