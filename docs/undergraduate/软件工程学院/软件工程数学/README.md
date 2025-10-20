@@ -1,5 +1,6 @@
 ﻿---
 title: 软件工程数学
+description: "课程代码: SE1207"
 ---
 
 
