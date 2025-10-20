@@ -1,5 +1,6 @@
 ﻿---
 title: 密码分析学
+description: "课程代码: SE3430"
 ---
 
 
