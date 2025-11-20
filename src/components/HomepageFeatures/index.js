@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        如果您会使用Github的话，可以在我们的仓库中新建issue与PR提交。如果不便使用，还可以联系zy1834576129@outlook.com，以“课栈资料贡献：[学院][专业][课程]”的格式作为主题发送邮件，我们自己整理上传。
+        如果您会使用Github的话，可以在我们的仓库中新建issue与PR提交，文件可存放在个人网盘(如百度网盘)等地方。如果不便使用，还可以联系zy1834576129@outlook.com，以“课栈资料贡献：[学院][专业][课程]”的格式作为主题发送邮件，我们自己整理上传。
       </>
     ),
   },
