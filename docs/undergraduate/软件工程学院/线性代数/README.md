@@ -12,3 +12,6 @@ description: "课程代码: SE1101"
 [2023-2024学年上学期期中_A](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/线性代数/2023-2024学年上学期期中_A.pdf)
 [2024-2025学年上学期期中_A](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/线性代数/2024-2025学年上学期期中_A.pdf)
 [2024-2025学年上学期期中_A_答案](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/线性代数/2024-2025学年上学期期中_A_答案.pdf)
+
+## 课件
+[wm老师](https://pan.baidu.com/s/1o1yVQD_mnfTY1gakUTCrDg?pwd=ECNU)(上传时截至教材第二章)
