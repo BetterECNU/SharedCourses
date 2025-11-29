@@ -56,16 +56,6 @@ const config = {
     '@docusaurus/theme-mermaid',
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        showLastUpdateAuthor: true,
-        showLastUpdateTime: true,
-      },
-    ],
-  ],
-
   presets: [
     [
       'classic',
@@ -75,6 +65,8 @@ const config = {
           sidebarPath: './sidebars.js',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
