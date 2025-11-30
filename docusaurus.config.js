@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
@@ -65,6 +65,8 @@ const config = {
           sidebarPath: './sidebars.js',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -104,10 +106,10 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/docs/', label: '课栈', position: 'left'},
-          {to: '/docs/undergraduate/', label: '本科生院', position: 'left'},
-          {to: '/docs/postgraduate/', label: '研究生院', position: 'left'},
-          {to: 'blog', label: '博客', position: 'right'},
+          { to: '/docs/', label: '课栈', position: 'left' },
+          { to: '/docs/undergraduate/', label: '本科生院', position: 'left' },
+          { to: '/docs/postgraduate/', label: '研究生院', position: 'left' },
+          { to: 'blog', label: '博客', position: 'right' },
           {
             href: 'https://github.com/BetterECNU/SharedCourses',
             label: 'GitHub',
@@ -116,7 +118,7 @@ const config = {
         ],
       },
       metadata: [
-        {name: 'keywords', content: 'ECNU, 华师大, 华东师范大学, 课程共享, 复习资料'},
+        { name: 'keywords', content: 'ECNU, 华师大, 华东师范大学, 课程共享, 复习资料' },
       ],
       footer: {
         style: 'dark',
