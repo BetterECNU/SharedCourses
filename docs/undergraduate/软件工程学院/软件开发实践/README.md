@@ -1,6 +1,6 @@
 ﻿---
 title: 软件开发实践
-description: "课程代码: SOFT0031131076"
+description: "课程代码: SE3351"
 ---
 
 ## 2024-2025学年下学期
