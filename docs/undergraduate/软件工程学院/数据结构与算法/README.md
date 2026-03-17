@@ -19,3 +19,8 @@ description: "课程代码: SE1209"
 ## 真题卷
 
 [2024-2025学年下学期_期中_A_杜育根](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/数据结构与算法/2024-2025学年下学期_期中_A_杜育根.pdf)
+
+## 课程资料
+
+[2022春课件更新-杜育根](https://drive.vanillaaaa.org/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-2022-%E6%9D%9C%E8%82%B2%E6%A0%B9)
+
