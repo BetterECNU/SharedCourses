@@ -25,6 +25,8 @@ description: "课程代码: SE1207"
 
 [2022年春软件工程数学资料](https://drive.vanillaaaa.org/软件工程学院/软件工程数学/课程资料)
 
+[2026年春张民离散数学课件](https://pan.baidu.com/s/1t7bEEvReJbImxhfw5bZlOQ?pwd=xpy9)
+
 ## 真题卷
 
 [2024-2025学年下学期期中_A_含答案](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/软件工程数学/2024-2025学年下学期期中_A_含答案.pdf)
