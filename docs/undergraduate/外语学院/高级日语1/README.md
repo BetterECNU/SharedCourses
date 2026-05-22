@@ -1,6 +1,6 @@
 ---
 title: 高级日语1
-description: "课程代码: SFLK3117"
+course_code: SFLK3117
 ---
 
 ## 2024-2025学年上学期

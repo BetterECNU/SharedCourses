@@ -1,6 +1,6 @@
 ﻿---
 title: 网络安全数学基础（二）
-description: "课程代码: SE3319"
+course_code: SE3319
 ---
 ## 2024-2025学年上学期
 

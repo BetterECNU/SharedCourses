@@ -1,6 +1,6 @@
 ﻿---
 title: 区块链基础
-description: "课程代码: SE3324"
+course_code: SE3324
 ---
 
 ## 2024-2025学年下学期

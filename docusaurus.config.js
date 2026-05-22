@@ -43,6 +43,10 @@ const config = {
     locales: ['zh-Hans'],
   },
 
+  plugins: [
+    './plugins/course-code',
+  ],
+
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),

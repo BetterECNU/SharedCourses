@@ -1,6 +1,6 @@
 ﻿---
 title: 计算机网络
-description: "课程代码: SE2214"
+course_code: SE2214
 ---
 
 ## 2022-2023学年秋学期

@@ -1,6 +1,6 @@
 ﻿---
 title: 程序设计基础
-description: "课程代码: SE1201"
+course_code: SE1201
 ---
 
 

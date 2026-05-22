@@ -1,6 +1,6 @@
 ﻿---
 title: 软件工程实践
-description: "课程代码: SE3230"
+course_code: SE3230
 ---
 
 

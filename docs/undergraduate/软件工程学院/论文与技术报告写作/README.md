@@ -1,6 +1,6 @@
 ---
 title: 论文与技术报告写作
-description: "课程代码: SE4225"
+course_code: SE4225
 ---
 
 ## 2025-2026学年下学期

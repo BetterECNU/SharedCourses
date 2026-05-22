@@ -1,6 +1,6 @@
 ﻿---
 title: 高等数学（二）
-description: "课程代码: SE1103"
+course_code: SE1103
 ---
 
 ## 本页面不再适用

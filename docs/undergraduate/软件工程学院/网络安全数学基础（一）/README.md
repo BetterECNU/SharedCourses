@@ -1,6 +1,6 @@
 ﻿---
 title: 网络安全数学基础（一）
-description: "课程代码: SE2317"
+course_code: SE2317
 ---
 ## 2023-2024学年下学期
 

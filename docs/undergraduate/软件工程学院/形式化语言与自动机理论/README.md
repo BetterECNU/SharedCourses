@@ -1,6 +1,6 @@
 ﻿---
 title: 形式化语言与自动机理论
-description: "课程代码: SE2424"
+course_code: SE2424
 ---
 
 ## 2023-2024学年下学期

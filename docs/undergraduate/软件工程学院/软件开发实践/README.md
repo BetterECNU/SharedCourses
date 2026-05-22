@@ -1,6 +1,6 @@
 ﻿---
 title: 软件开发实践
-description: "课程代码: SE3351"
+course_code: SE3351
 ---
 
 ## 2024-2025学年下学期

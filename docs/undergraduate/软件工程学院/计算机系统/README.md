@@ -1,6 +1,6 @@
 ﻿---
 title: 计算机系统
-description: "课程代码: SE1210"
+course_code: SE1210
 ---
 
 ## 2022-2023学年下学期

@@ -1,6 +1,6 @@
 ﻿---
 title: 编译原理与技术
-description: "课程代码: SE3223"
+course_code: SE3223
 ---
 ## 2025-2026学年上学期
 

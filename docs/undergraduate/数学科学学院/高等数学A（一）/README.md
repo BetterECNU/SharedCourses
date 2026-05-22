@@ -1,6 +1,6 @@
 ---
 title: 高等数学A（一）
-description: "课程代码: MATH1601"
+course_code: MATH1601
 ---
 ## 真题卷
 

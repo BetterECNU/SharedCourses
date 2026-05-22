@@ -1,6 +1,6 @@
 ﻿---
 title: 软件测试和验证
-description: "课程代码: SE3313"
+course_code: SE3313
 ---
 
 ## 2025-2026学年上学期

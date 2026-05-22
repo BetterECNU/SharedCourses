@@ -1,6 +1,6 @@
 ﻿---
 title: 概率论与数理统计
-description: "课程代码: SE2104"
+course_code: SE2104
 ---
 
 ## 2022年秋季学期

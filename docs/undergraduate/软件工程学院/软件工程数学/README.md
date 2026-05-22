@@ -1,6 +1,6 @@
 ﻿---
 title: 软件工程数学
-description: "课程代码: SE1207"
+course_code: SE1207
 ---
 
 ## 2021-2022学年下学期
