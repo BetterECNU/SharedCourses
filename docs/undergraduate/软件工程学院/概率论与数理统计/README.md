@@ -1,6 +1,6 @@
 ﻿---
 title: 概率论与数理统计
-description: "课程代码: 忘了"
+description: "课程代码: SE2104"
 ---
 
 ## 2022年秋季学期
@@ -12,4 +12,3 @@ description: "课程代码: 忘了"
 ## 参考资料
 
 [教材和答案](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/概率论与数理统计)
-

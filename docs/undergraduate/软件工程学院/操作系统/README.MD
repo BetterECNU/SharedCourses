@@ -1,6 +1,6 @@
 ---
 title: 操作系统
-description: "课程代码: 忘了"
+description: "课程代码: SE2216"
 
 ---
 
