@@ -53,7 +53,7 @@ function CardLayout({ className, href, icon, title, description, courseCode }) {
           {description}
         </p>
       )}
-      {courseCode && <CourseCodeTag code={courseCode} />}
+      {courseCode && <CourseCodeTag code={courseCode} linkable={false} />}
     </CardContainer>
   );
 }
