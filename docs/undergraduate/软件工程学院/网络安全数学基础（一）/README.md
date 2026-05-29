@@ -15,4 +15,4 @@ course_code: SE2317
   
 #### 教学资源
 
-- [课件 2022级更新 (3-1 到 5)](https://drive.vanillaaaa.org/SharedCourses/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/2022%E7%BA%A7)
+- [课件 2022级更新 (3-1 到 5)](https://github.com/BetterECNU/SharedResources/tree/main/SE/SE2317/slides/2024Spring)
