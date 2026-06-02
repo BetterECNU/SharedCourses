@@ -5,6 +5,7 @@
 ``` markdown
 ---
 title: 课程名
+course_code: 课程代码
 ---
 ## 20xx-20xx学年x学期
 
