@@ -14,7 +14,7 @@ course_code: SE2216
 - 很严格的老师
 - 实验报告记得认真写
 
-#### 实践作业参考
+#### 教学资源
 
 - [实践作业报告](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/操作系统/实践作业报告)
 
