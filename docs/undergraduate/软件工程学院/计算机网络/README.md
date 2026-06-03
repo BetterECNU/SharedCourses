@@ -3,7 +3,7 @@ title: 计算机网络
 course_code: SE2214
 ---
 
-## 2022-2023学年秋学期
+## 2022-2023学年上学期
 
 ### 章玥
 
@@ -15,7 +15,7 @@ course_code: SE2214
 - [课件](https://drive.vanillaaaa.org/d/SharedCourses/软件工程学院/计算机网络/ppts)
 - [参考教材](https://drive.vanillaaaa.org/d/SharedCourses/软件工程学院/计算机网络/参考教材)
 
-## 2024-2025学年秋学期
+## 2024-2025学年上学期
 
 ### 王廷
 
