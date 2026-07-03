@@ -11,4 +11,4 @@ course_code: SE2220
 
 #### 教学资源
 
-- [部分 PPT](https://github.com/BetterECNU/SharedResources/tree/main/SE/SE2220/slides)
+- [Slides（部分）](https://github.com/BetterECNU/SharedResources/tree/main/SE/SE2220/2023-2024学年下学期/姚俊杰/Slides（部分）)
