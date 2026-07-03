@@ -5,6 +5,10 @@ course_code: SE3338
 
 ## 2024-2025学年下学期
 
+### 试卷
+
+- [2024-2025学年下学期期末试卷](./2024-2025学年下学期期末)
+
 ### 刘虹
 
 - 老师人很好很好，教的也很认真
@@ -12,5 +16,4 @@ course_code: SE3338
 
 #### 教学资源
 
-- [课件](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/网络安全协议分析/2024-2025学年下学期)
-- [期末试题](./2024-2025学年下学期期末)
+- [Slides](https://github.com/BetterECNU/SharedResources/tree/main/SE/SE3338/2024-2025学年下学期/刘虹/Slides)

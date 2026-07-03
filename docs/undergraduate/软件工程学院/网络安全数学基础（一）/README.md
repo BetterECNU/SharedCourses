@@ -2,6 +2,7 @@
 title: 网络安全数学基础（一）
 course_code: SE2317
 ---
+
 ## 2023-2024学年下学期
 
 ### 试卷
@@ -15,4 +16,4 @@ course_code: SE2317
   
 #### 教学资源
 
-- [课件 2022级更新 (3-1 到 5)](https://github.com/BetterECNU/SharedResources/tree/main/SE/SE2317/slides/2024Spring)
+- [Slides（3-1到5）](https://github.com/BetterECNU/SharedResources/tree/main/SE/SE2317/2023-2024学年下学期/沈佳辰/Slides（3-1到5）)

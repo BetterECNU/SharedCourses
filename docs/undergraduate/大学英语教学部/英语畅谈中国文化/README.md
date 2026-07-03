@@ -19,4 +19,4 @@ course_code: SFLE0030
 
 #### 教学资源
 
-- [判断题全解+复习](https://drive.vanillaaaa.org/SharedCourses/大学英语教学部/英语畅谈中国文化/2024-2025学年下学期/胡婧/判断+复习.pdf)
+- [判断题全解+复习](https://github.com/BetterECNU/SharedResources/blob/main/SFLE/SFLE0030/2024-2025学年下学期/胡婧/判断题全解+复习.pdf)
