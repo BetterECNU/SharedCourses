@@ -338,7 +338,7 @@ def write_step_summary(results: list[UrlResult], files_scanned: int,
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--root", default=".", help="Repository root to scan (default: .)")
+    p.add_argument("--root", default="docs", help="Directory to scan (default: docs)")
     p.add_argument("--timeout", type=float, default=DEFAULT_TIMEOUT,
                    help=f"Per-request timeout in seconds (default: {DEFAULT_TIMEOUT})")
     p.add_argument("--workers", type=int, default=DEFAULT_WORKERS,
