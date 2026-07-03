@@ -20,3 +20,5 @@ yarn-debug.log*
 yarn-error.log*
 
 pnpm-lock.yaml
+.claude/
+scripts/__pycache__/check_urls.cpython-313.pyc

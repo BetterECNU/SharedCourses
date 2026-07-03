@@ -1,0 +1,180 @@
+name: URL Check
+
+on:
+  pull_request:
+    # Only re-run when something that could contain URLs changes.
+    paths:
+      - "**.md"
+      - "**.mdx"
+      - "**.markdown"
+      - "**.html"
+      - "**.htm"
+      - "**.yml"
+      - "**.yaml"
+      - "**.json"
+      - "**.js"
+      - "**.ts"
+      - "**.tsx"
+      - "**.jsx"
+      - "**.py"
+      - "**.txt"
+      - "**.xml"
+      - "**.svg"
+      - ".github/scripts/check_urls.py"
+      - ".github/workflows/url-check.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write # Required to post the PR comment with the report.
+
+concurrency:
+  group: url-check-${{ github.event.pull_request.number || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  check_urls:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          # Full history lets us diff the PR against its base for scoped scans.
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Determine scope (changed files in PR)
+        id: scope
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: |
+          set -eu
+          # On a PR, only check URLs in files the PR touches. On manual runs,
+          # scan the whole repository.
+          if [ -z "$BASE_SHA" ]; then
+            echo "scope=all" >> "$GITHUB_OUTPUT"
+            echo "Scanning entire repository."
+            exit 0
+          fi
+
+          mapfile -t changed < <(git diff --name-only --diff-filter=AMR "$BASE_SHA" "$HEAD_SHA")
+          text_re='\.(md|mdx|markdown|html?|ya?ml|json|jsx?|tsx?|py|txt|xml|svg|toml|ini|css|scss|rst)$'
+          matched=()
+          for f in "${changed[@]}"; do
+            if [[ "$f" =~ $text_re ]]; then
+              matched+=("$f")
+            fi
+          done
+
+          if [ ${#matched[@]} -eq 0 ]; then
+            echo "scope=empty" >> "$GITHUB_OUTPUT"
+            echo "No text files with potential URLs were changed."
+          else
+            # The script's --only accepts a comma-separated list (and repeats).
+            # Use a single comma-joined value to keep the command line simple.
+            csv="$(IFS=,; printf '%s' "${matched[*]}")"
+            echo "scope=diff" >> "$GITHUB_OUTPUT"
+            printf '%s' "$csv" > /tmp/changed_csv.txt
+            echo "Will scan ${#matched[@]} changed file(s)."
+          fi
+
+      - name: Run URL checker
+        if: steps.scope.outputs.scope != 'empty'
+        id: run
+        shell: bash
+        run: |
+          set +e
+          if [ "${{ steps.scope.outputs.scope }}" = "diff" ]; then
+            python .github/scripts/check_urls.py --timeout 20 --workers 16 \
+              --only "$(cat /tmp/changed_csv.txt)" 2>&1 | tee /tmp/url_report.txt
+          else
+            python .github/scripts/check_urls.py --timeout 20 --workers 16 2>&1 | tee /tmp/url_report.txt
+          fi
+          ec=${PIPESTATUS[0]}
+          echo "exitcode=$ec" >> "$GITHUB_OUTPUT"
+          exit 0   # We surface pass/fail via the dedicated step below.
+
+      - name: Fallback job summary
+        if: always() && steps.scope.outputs.scope != 'empty'
+        run: |
+          # If the script never got to write $GITHUB_STEP_SUMMARY, surface the
+          # raw report so contributors still see something on the run page.
+          if [ ! -s "$GITHUB_STEP_SUMMARY" ]; then
+            {
+              echo "### 🔗 URL Check (raw log)"
+              echo ""
+              echo '```'
+              cat /tmp/url_report.txt 2>/dev/null || true
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Build PR comment body
+        if: always() && github.event_name == 'pull_request'
+        id: comment
+        env:
+          SCOPE: ${{ steps.scope.outputs.scope }}
+          EXITCODE: ${{ steps.run.outputs.exitcode }}
+        run: |
+          {
+            echo "body<<EOF"
+            echo "<!-- url-check-report -->"
+            echo "## 🔗 URL Check Report"
+            echo ""
+            if [ "$SCOPE" = "empty" ]; then
+              echo "No changed files contain checkable URLs — skipping scan. ✅"
+            else
+              if [ "$SCOPE" = "diff" ]; then
+                echo "Scope: changed files in this PR."
+              else
+                echo "Scope: entire repository."
+              fi
+              echo ""
+              echo '<details><summary>Full report</summary>'
+              echo ""
+              echo '```'
+              cat /tmp/url_report.txt 2>/dev/null || true
+              echo '```'
+              echo ""
+              echo "</details>"
+              echo ""
+              if [ -z "$EXITCODE" ] || [ "$EXITCODE" = "0" ]; then
+                echo "✅ All probed URLs are reachable."
+              else
+                echo "❌ Some URLs are broken — see the report above."
+              fi
+            fi
+            echo ""
+            echo "_Automated by \`.github/workflows/url-check.yml\`._"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Find previous report comment
+        if: always() && github.event_name == 'pull_request'
+        uses: peter-evans/find-comment@v3
+        id: find_comment
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: "github-actions[bot]"
+          body-includes: "<!-- url-check-report -->"
+
+      - name: Create or update PR comment
+        if: always() && github.event_name == 'pull_request'
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-id: ${{ steps.find_comment.outputs.comment-id }}
+          edit-mode: replace
+          body: ${{ steps.comment.outputs.body }}
+
+      - name: Fail job on broken URLs
+        if: steps.scope.outputs.scope != 'empty' && steps.run.outputs.exitcode != '0'
+        run: |
+          echo "URL check failed with exit code ${{ steps.run.outputs.exitcode }}."
+          exit 1
