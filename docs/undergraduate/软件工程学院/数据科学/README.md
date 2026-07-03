@@ -5,7 +5,7 @@ course_code: SE3435
 
 ## 2024-2025学年下学期
 
-### Jeff
+### Jeffrey W Sanders
 
 - 老师人很好, 讲的也还可以
 - 平时每两周有一个课后辅导, 时间段自选, 但是必须去, 要不然没有平时分, 讲的内容大概是他觉得你作业哪里没做好啊啥的会问你的思路, 会给你纠正, 然后问你有没有没弄懂的地方
@@ -14,5 +14,5 @@ course_code: SE3435
 
 #### 教学资源
 
-- [课件](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/数据科学/2024-2025学年下学期/Jeff/课件)
-- [作业(正确性不保证)](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/数据科学/2024-2025学年下学期/Jeff/作业)
+- [Slides](https://github.com/BetterECNU/SharedResources/tree/main/SE/SE3435/2024-2025学年下学期/Jeffrey%20W%20Sanders/Slides)
+- [Homework（正确性不保证）](https://github.com/BetterECNU/SharedResources/tree/main/SE/SE3435/2024-2025学年下学期/Jeffrey%20W%20Sanders/Homework（正确性不保证）)
