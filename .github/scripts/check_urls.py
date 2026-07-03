@@ -49,17 +49,19 @@ DEFAULT_INCLUDE_EXT = {
 }
 
 # Regex that matches http(s) URLs. The negated character class stops at common
-# delimiters (whitespace, angle/quote/backtick, square bracket) so we don't
-# capture surrounding markup. Note that ')' is intentionally NOT excluded:
-# parentheses are valid URL characters (Wikipedia, "(3rd).pdf", etc.) and
-# Markdown link syntax wraps URLs as ](url) — the trailing ')' from the wrapper
-# is stripped after matching by balancing parenthesis counts (see below).
-URL_REGEX = re.compile(r"https://[^\s<>\"'`\]]+|http://[^\s<>\"'`\]]+")
+# delimiters (whitespace, angle/quote/backtick, both square brackets) so we
+# don't capture surrounding markdown/text markup. Excluding '[' (in addition
+# to ']') prevents a match from bleeding out of one markdown link into the
+# label of the next. Note that ')' is intentionally NOT excluded: parentheses
+# are valid URL characters (Wikipedia, "(3rd).pdf", etc.) and Markdown wraps
+# URLs as ](url) — the trailing ')' from the wrapper, plus any trailing prose
+# or CJK text, is stripped by clean_url() below.
+URL_REGEX = re.compile(r"https://[^\s<>\"'`\[\]]+|http://[^\s<>\"'`\[\]]+")
 
 # Characters that frequently trail a URL in prose/markdown but are not part of
 # the URL itself. We strip them from the tail of each match. Note: ')' is NOT
 # included here — parentheses are valid URL characters, and Markdown's link
-# wrapper `](url)` is handled separately by balancing paren counts below.
+# wrapper `](url)` is handled separately by clean_url() below.
 TRAILING_PUNCT = ".,;:!?]}'\""
 
 def normalize_url(url: str) -> str:
@@ -124,6 +126,42 @@ def iter_text_files(root: str, exclude_dirs: set[str], include_ext: set[str]) ->
                 yield os.path.join(dirpath, name)
 
 
+def clean_url(raw: str) -> str:
+    """Strip markup/prose artifacts from a raw URL regex match.
+
+    Handles three common ways surrounding text leaks into a match:
+    1. Trailing punctuation (commas, periods, etc.).
+    2. Markdown link syntax ``](url)`` — the wrapper ')' (and any text after
+       it before the next delimiter) is stripped by truncating at the first
+       unbalanced ')'. This also fixes cases where the match ran past the
+       ')' into adjacent CJK prose or the next link's label, e.g.
+       ``url)和[label`` -> ``url``.
+    3. Trailing non-ASCII characters (CJK, fullwidth punctuation) that are
+       almost always prose rather than part of the (ASCII-only) URL.
+    """
+    url = raw.rstrip(TRAILING_PUNCT)
+
+    # Truncate at the first unbalanced ')'. A balanced pair like (foo) is
+    # preserved; only a ')' without a matching '(' is treated as markup.
+    depth = 0
+    for i, ch in enumerate(url):
+        if ch == "(":
+            depth += 1
+        elif ch == ")":
+            depth -= 1
+            if depth < 0:
+                url = url[:i]
+                break
+
+    # The truncation may have exposed trailing punctuation / CJK that was
+    # originally sitting after the ')'; strip again, then drop trailing
+    # non-ASCII (raw CJK etc. — legitimate non-ASCII must be percent-encoded).
+    url = url.rstrip(TRAILING_PUNCT)
+    while url and ord(url[-1]) > 127:
+        url = url[:-1]
+    return url.rstrip(TRAILING_PUNCT)
+
+
 def find_urls_in_file(path: str, regex: re.Pattern[str]) -> dict[str, set[str]]:
     """Return {url: {relative_paths}} for every URL found in *path*."""
     try:
@@ -134,10 +172,7 @@ def find_urls_in_file(path: str, regex: re.Pattern[str]) -> dict[str, set[str]]:
 
     url_to_sources: dict[str, set[str]] = {}
     for match in regex.findall(content):
-        url = match.rstrip(TRAILING_PUNCT)
-        # Drop trailing closing parens that were part of markdown link syntax.
-        while url.endswith(")") and url.count("(") < url.count(")"):
-            url = url[:-1]
+        url = clean_url(match)
         if not url:
             continue
         url_to_sources.setdefault(url, set()).add(path)
