@@ -5,11 +5,13 @@ course_code: SE3324
 
 ## 2024-2025学年下学期
 
+### 试卷
+
+- [2024-2025学年下学期期末试卷](./2024-2025学年下学期期末)
+
 ### 鲍海勇
 
-#### 教学资料
+#### 教学资源
 
-- [南京大学慕课](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/区块链基础/2024-2025学年下学期/课件/南京大学慕课)
-- [蚂蚁区块链](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/区块链基础/2024-2025学年下学期/课件/蚂蚁区块链)
-- [作业](https://drive.vanillaaaa.org/SharedCourses/软件工程学院/区块链基础/2024-2025学年下学期/作业)
-- [2024-2025学年下学期期末](./2024-2025学年下学期期末)
+- [Slides](https://github.com/BetterECNU/SharedResources/tree/main/SE/SE3324/2024-2025学年下学期/鲍海勇/Slides)
+- [Homework](https://github.com/BetterECNU/SharedResources/tree/main/SE/SE3324/2024-2025学年下学期/鲍海勇/Homework)
