@@ -2,6 +2,7 @@
 title: 网络安全数学基础（二）
 course_code: SE3319
 ---
+
 ## 2024-2025学年上学期
 
 ### 试卷
@@ -15,4 +16,4 @@ course_code: SE3319
 
 #### 教学资源
 
-- [课件 2022级更新 (6-1 到 9, 商密介绍)](https://github.com/BetterECNU/SharedResources/tree/main/SE/SE3319/slides/2024Fall)
+- [Slides（6-1 到 9, 商密介绍）](https://github.com/BetterECNU/SharedResources/tree/main/SE/SE3319/2024-2025学年上学期/沈佳辰/Slides（6-1%20到%209,%20商密介绍）)
