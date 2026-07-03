@@ -21,3 +21,5 @@ yarn-error.log*
 
 pnpm-lock.yaml
 AGENTS.md
+.claude/
+__pycache__
