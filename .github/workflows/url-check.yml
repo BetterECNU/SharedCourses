@@ -72,7 +72,9 @@ jobs:
           fi
 
       - name: Build PR comment body
-        if: always() && github.event_name == 'pull_request'
+        # Skip on fork PRs: GITHUB_TOKEN is read-only, so posting a comment
+        # fails with HTTP 403. The report is still in the job summary.
+        if: always() && github.event_name == 'pull_request' && !github.event.pull_request.head.repo.fork
         id: comment
         env:
           EXITCODE: ${{ steps.run.outputs.exitcode }}
@@ -103,7 +105,7 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
       - name: Find previous report comment
-        if: always() && github.event_name == 'pull_request'
+        if: always() && github.event_name == 'pull_request' && !github.event.pull_request.head.repo.fork
         uses: peter-evans/find-comment@v3
         id: find_comment
         with:
@@ -112,7 +114,7 @@ jobs:
           body-includes: "<!-- url-check-report -->"
 
       - name: Create or update PR comment
-        if: always() && github.event_name == 'pull_request'
+        if: always() && github.event_name == 'pull_request' && !github.event.pull_request.head.repo.fork
         uses: peter-evans/create-or-update-comment@v4
         with:
           issue-number: ${{ github.event.pull_request.number }}
