@@ -27,5 +27,13 @@ course_code: SE1208
 
 #### 教学资源
 
-- [VOJ答案](./2024-2025学年下学期VOJ答案)
+- [VOJ答案](./2024-2025学年下学期/杜育根/2024-2025学年下学期VOJ答案)
 - [VOJ答案PDF版](https://github.com/BetterECNU/SharedResources/blob/main/SE/SE1208/2024-2025学年下学期/杜育根/VOJ答案.pdf)
+
+## 2024-2025学年下学期
+
+### 杜育根
+
+#### 教学资源
+
+- [VOJ答案PDF版](https://github.com/BetterECNU/SharedResources/blob/main/SE/SE1208/2025-2026学年下学期/杜育根/VOJ答案)
