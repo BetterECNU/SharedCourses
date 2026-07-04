@@ -59,7 +59,7 @@ course_code: 课程代码
 
 ## 试卷
 
-样式比较复杂, 具体参照 [网络安全数学基础（一）/2023-2024学年下学期期末.md](https://raw.githubusercontent.com/BetterECNU/SharedCourses/refs/heads/main/docs/courses/软件工程学院/网络安全数学基础（一）/2023-2024学年下学期期末.md)
+样式比较复杂, 具体参照 [网络安全数学基础（一）/2023-2024学年下学期期末.md](https://raw.githubusercontent.com/BetterECNU/SharedCourses/refs/heads/main/docs/undergraduate/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89/2023-2024%E5%AD%A6%E5%B9%B4%E4%B8%8B%E5%AD%A6%E6%9C%9F%E6%9C%9F%E6%9C%AB.md)
 
 ### 文件命名
 
