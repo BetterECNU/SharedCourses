@@ -2,8 +2,8 @@
 title: 思想政治与实践
 ---
 
-- [考试情报](https://drive.vanillaaaa.org/SharedCourses/postgraduate/公共课/思想政治与实践/考试情报.pdf)
-- [考试打印](https://drive.vanillaaaa.org/SharedCourses/postgraduate/公共课/思想政治与实践/考试打印.docx)
+- [考试情报](https://github.com/BetterECNU/ecnu-PGCourseShare/blob/main/%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%83%B3%E6%94%BF%E6%B2%BB%E4%B8%8E%E5%AE%9E%E8%B7%B5/%E8%80%83%E8%AF%95%E6%83%85%E6%8A%A5.pdf)
+- [考试打印](https://github.com/BetterECNU/ecnu-PGCourseShare/blob/main/%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%83%B3%E6%94%BF%E6%B2%BB%E4%B8%8E%E5%AE%9E%E8%B7%B5/%E8%80%83%E8%AF%95%E6%89%93%E5%8D%B0.docx)
 
 ## 考试情报
 

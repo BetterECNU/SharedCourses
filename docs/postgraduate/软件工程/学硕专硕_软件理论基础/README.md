@@ -4,5 +4,5 @@ title: 学硕专硕_软件理论基础
 
 授课老师：[张敏老师](https://faculty.ecnu.edu.cn/_s43/zm2/main.psp)和[卜天明老师](https://faculty.ecnu.edu.cn/_s43/btm/main.psp)
 
-- [作业](https://drive.vanillaaaa.org/SharedCourses/postgraduate/软件工程学院/学硕专硕_软件理论基础/作业)
-- [讲义](https://drive.vanillaaaa.org/SharedCourses/postgraduate/软件工程学院/学硕专硕_软件理论基础/讲义)
+- [作业](https://github.com/BetterECNU/ecnu-PGCourseShare/tree/main/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E5%AD%A6%E7%A1%95%E4%B8%93%E7%A1%95_%E8%BD%AF%E4%BB%B6%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/%E4%BD%9C%E4%B8%9A)
+- [讲义](https://github.com/BetterECNU/ecnu-PGCourseShare/tree/main/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E5%AD%A6%E7%A1%95%E4%B8%93%E7%A1%95_%E8%BD%AF%E4%BB%B6%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/%E8%AE%B2%E4%B9%89)

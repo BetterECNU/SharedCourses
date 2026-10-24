@@ -2,7 +2,7 @@
 title: 量子计算导论
 ---
 
-- [资源](https://drive.vanillaaaa.org/SharedCourses/postgraduate/%E5%85%AC%E5%85%B1%E8%AF%BE/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E5%AF%BC%E8%AE%BA)
+- [资源](https://github.com/BetterECNU/ecnu-PGCourseShare/tree/main/%E5%85%AC%E5%85%B1%E8%AF%BE/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E5%AF%BC%E8%AE%BA)
 
 课程名称：量子计算导论（公共选修课）
 
