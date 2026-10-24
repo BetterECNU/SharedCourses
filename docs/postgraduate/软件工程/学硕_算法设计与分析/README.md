@@ -6,9 +6,9 @@ title: 学硕_算法分析与设计
 
 好老师！
 
-- [讲义](https://drive.vanillaaaa.org/SharedCourses/postgraduate/软件工程学院/学硕_算法分析与设计/讲义)
-- [历年试卷](https://drive.vanillaaaa.org/SharedCourses/postgraduate/软件工程学院/学硕_算法分析与设计/历年试卷)
-- [作业](https://drive.vanillaaaa.org/SharedCourses/postgraduate/软件工程学院/学硕_算法分析与设计/作业)
+- [讲义](https://github.com/BetterECNU/ecnu-PGCourseShare/tree/main/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E5%AD%A6%E7%A1%95_%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/%E8%AE%B2%E4%B9%89)
+- [历年试卷](https://github.com/BetterECNU/ecnu-PGCourseShare/tree/main/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E5%AD%A6%E7%A1%95_%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/%E5%8E%86%E5%B9%B4%E8%AF%95%E5%8D%B7)
+- [作业](https://github.com/BetterECNU/ecnu-PGCourseShare/tree/main/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E5%AD%A6%E7%A1%95_%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/%E4%BD%9C%E4%B8%9A)
 
 ## Solutions
 

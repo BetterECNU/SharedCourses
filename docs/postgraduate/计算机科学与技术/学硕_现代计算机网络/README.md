@@ -2,7 +2,7 @@
 title: 学硕_现代计算机网络
 ---
 
-- [所有资源](https://drive.vanillaaaa.org/SharedCourses/postgraduate/计算机科学与技术/学硕_现代计算机网络)
+- [所有资源](https://github.com/BetterECNU/ecnu-PGCourseShare/tree/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF/%E5%AD%A6%E7%A1%95_%E7%8E%B0%E4%BB%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C)
 
 上课方式：
 

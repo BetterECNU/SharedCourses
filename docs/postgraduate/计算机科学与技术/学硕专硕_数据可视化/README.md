@@ -2,7 +2,7 @@
 title: 学硕专硕_数据可视化
 ---
 
-- [课件, 作业](https://drive.vanillaaaa.org/SharedCourses/postgraduate/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF/%E5%AD%A6%E7%A1%95%E4%B8%93%E7%A1%95_%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96)
+- [课件, 作业](https://github.com/BetterECNU/ecnu-PGCourseShare/tree/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF/%E5%AD%A6%E7%A1%95%E4%B8%93%E7%A1%95_%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96)
 
 该课程详情见[李晨辉老师的个人主页](http://chenhui.li)
 

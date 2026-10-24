@@ -10,6 +10,6 @@ title: 学硕_代数形式化方法
 
 考核方式：期末需要提交约5页的课程报告。附上了一篇满分报告作为示例。
 
-- [课件](https://drive.vanillaaaa.org/SharedCourses/postgraduate/软件工程学院/学硕_代数形式化方法/代数形式化方法.pdf)
-- [Maude 3.2.1 Manual](https://drive.vanillaaaa.org/SharedCourses/postgraduate/软件工程学院/学硕_代数形式化方法/Maude-3.2.1-manual.pdf)
-- [满分报告](https://drive.vanillaaaa.org/SharedCourses/postgraduate/软件工程学院/学硕_代数形式化方法/课程报告-陈实-51255902014.pdf)
+- [课件](https://github.com/BetterECNU/ecnu-PGCourseShare/blob/main/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E5%AD%A6%E7%A1%95_%E4%BB%A3%E6%95%B0%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%96%B9%E6%B3%95/%E4%BB%A3%E6%95%B0%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%96%B9%E6%B3%95.pdf)
+- [Maude 3.2.1 Manual](https://github.com/BetterECNU/ecnu-PGCourseShare/blob/main/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E5%AD%A6%E7%A1%95_%E4%BB%A3%E6%95%B0%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%96%B9%E6%B3%95/Maude-3.2.1-manual.pdf)
+- [满分报告](https://github.com/BetterECNU/ecnu-PGCourseShare/blob/main/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E5%AD%A6%E7%A1%95_%E4%BB%A3%E6%95%B0%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%96%B9%E6%B3%95/%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%91%8A-%E9%99%88%E5%AE%9E-51255902014.pdf)

@@ -2,7 +2,7 @@
 title: 学硕专硕_高级工程数学
 ---
 
-- [资源](https://drive.vanillaaaa.org/SharedCourses/postgraduate/计算机科学与技术/学硕专硕_高级工程数学)
+- [资源](https://github.com/BetterECNU/ecnu-PGCourseShare/tree/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF/%E5%AD%A6%E7%A1%95%E4%B8%93%E7%A1%95_%E9%AB%98%E7%BA%A7%E5%B7%A5%E7%A8%8B%E6%95%B0%E5%AD%A6)
 
 任课老师: 沈超敏
 

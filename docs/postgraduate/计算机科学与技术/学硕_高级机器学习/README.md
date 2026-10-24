@@ -4,8 +4,8 @@ title: 学硕_高级机器学习
 
 授课教师：赵静
 
-- [作业](https://drive.vanillaaaa.org/SharedCourses/postgraduate/计算机科学与技术/学硕_高级机器学习/作业)
-- [课件](https://drive.vanillaaaa.org/SharedCourses/postgraduate/计算机科学与技术/学硕_高级机器学习/课件)
+- [作业](https://github.com/BetterECNU/ecnu-PGCourseShare/tree/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF/%E5%AD%A6%E7%A1%95_%E9%AB%98%E7%BA%A7%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BD%9C%E4%B8%9A)
+- [课件](https://github.com/BetterECNU/ecnu-PGCourseShare/tree/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF/%E5%AD%A6%E7%A1%95_%E9%AB%98%E7%BA%A7%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E8%AF%BE%E4%BB%B6)
 
 教师授课 （前 13 周 ） + 学生分享（ 后 4 周 ）
 
