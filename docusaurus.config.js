@@ -77,20 +77,13 @@ const config = {
         },
         blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: [
+            require.resolve('katex/dist/katex.min.css'),
+            './src/css/custom.css',
+          ],
         },
       }),
     ],
-  ],
-
-  stylesheets: [
-    {
-      href: 'https://unpkg.com/katex@0.13.24/dist/katex.min.css',
-      type: 'text/css',
-      integrity:
-        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
-      crossorigin: 'anonymous',
-    },
   ],
 
   themeConfig:
