@@ -31,3 +31,9 @@ course_code: SE1101
 #### 教学资源
 
 - [Slides](https://github.com/BetterECNU/SharedResources/tree/main/SE/SE1101/2025-2026学年上学期/吴敏/Slides)
+
+## 2026-2027学年上学期
+
+### 试卷
+
+- [2026-2027学年上学期期中试卷](./2026-2027学年上学期期中)
